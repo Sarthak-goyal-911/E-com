@@ -1,0 +1,31 @@
+@import '../base/typography';
+
+.Categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    
+}
+.Categories-nav ul{
+    display: flex;
+    gap: 1.5rem;
+    list-style-type: none;
+    background-color: $secondary-color;
+    margin: 0;
+    padding: 0;
+}
+.Categories-nav a{
+    color: white;
+    font-size: 1.6rem;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.Categories-nav a:hover{
+    background-color: $primary-col;
+}
+.Categories-nav a:visited{
+    background-color: $primary-col;
+}

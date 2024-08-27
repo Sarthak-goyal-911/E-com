@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Cards</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .product-cards {
+            display: flex;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            width: 250px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .card .ribbon {
+            position: absolute;
+            top: 10px;
+            left: -5px;
+            padding: 5px 10px;
+            background-color: red;
+            color: white;
+            font-size: 12px;
+            transform: rotate(-45deg);
+            transform-origin: left bottom;
+        }
+
+        .card .label {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 5px 10px;
+            background-color: #2196F3;
+            color: white;
+            font-size: 12px;
+            border-radius: 5px;
+        }
+
+        .card .title {
+            margin: 10px 0;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .card .brand {
+            color: grey;
+            font-size: 12px;
+        }
+
+        .card .price {
+            margin: 10px 0;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .card .price del {
+            color: #888;
+            font-size: 14px;
+            margin-left: 5px;
+        }
+
+        .card .actions {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .card .actions .quantity {
+            display: flex;
+            align-items: center;
+        }
+
+        .card .actions .quantity input {
+            width: 40px;
+            text-align: center;
+        }
+
+        .card .actions .quantity button {
+            background-color: #eee;
+            border: 1px solid #ddd;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+        .card .actions .add-to-cart {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .card .bottom-actions {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+
+        .card .bottom-actions button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            color: #007bff;
+        }
+
+        .card .bottom-actions .buy-now {
+            color: green;
+        }
+
+        .card .bottom-actions .question {
+            color: orange;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="product-cards">
+    <!-- Card 1 -->
+    <div class="card">
+        <div class="label">CUSTOM LABELS</div>
+        <img src="https://via.placeholder.com/200x150" alt="Headphones">
+        <div class="ribbon">HOT</div>
+        <div class="title">Headphones</div>
+        <div class="brand">Ericksson</div>
+        <div class="price">$999.00 <del>$3,299.00</del></div>
+        <div class="actions">
+            <div class="quantity">
+                <button>-</button>
+                <input type="text" value="1">
+                <button>+</button>
+            </div>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="bottom-actions">
+            <button class="buy-now">Buy Now</button>
+            <button class="question">Question</button>
+        </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+        <div class="ribbon" style="background-color: red;">-70%</div>
+        <img src="https://via.placeholder.com/200x150" alt="Women's Maria Pump">
+        <div class="ribbon">TOP BRAND</div>
+        <div class="title">Women's Maria Pump</div>
+        <div class="brand">NY Fashion</div>
+        <div class="price">$425.00</div>
+        <div class="actions">
+            <div class="quantity">
+                <button>-</button>
+                <input type="text" value="1">
+                <button>+</button>
+            </div>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="bottom-actions">
+            <button class="buy-now">Buy Now</button>
+            <button class="question">Question</button>
+        </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+        <div class="label" style="background-color: green;">FREE</div>
+        <img src="https://via.placeholder.com/200x150" alt="Toshiba 5009 Smart TV">
+        <div class="ribbon">PRE-ORDER</div>
+        <div class="title">Toshiba 5009 Smart TV</div>
+        <div class="brand">Ericksson</div>
+        <div class="price">$0.00</div>
+        <div class="actions">
+            <div class="quantity">
+                <button>-</button>
+                <input type="text" value="1">
+                <button>+</button>
+            </div>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="bottom-actions">
+            <button class="buy-now">Buy Now</button>
+            <button class="question">Question</button>
+        </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="card">
+        <div class="ribbon">HOT</div>
+        <img src="https://via.placeholder.com/200x150" alt="Leica Digital Camera">
+        <div class="ribbon">PRE-ORDER</div>
+        <div class="title">Leica Digital Camera</div>
+        <div class="brand">Ericksson</div>
+        <div class="price">$2,189.00</div>
+        <div class="actions">
+            <div class="quantity">
+                <button>-</button>
+                <input type="text" value="1">
+                <button>+</button>
+            </div>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="bottom-actions">
+            <button class="buy-now">Buy Now</button>
+            <button class="question">Question</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

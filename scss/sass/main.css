@@ -1,0 +1,543 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  margin-bottom: 0px;
+}
+.top-header .r-r {
+  display: flex;
+  gap: 1rem;
+}
+
+.top-header ul {
+  list-style-type: none;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 400;
+  font-size: xx-large;
+  font-size: 1.6rem;
+  background-color: #d3d6da;
+  padding: 2rem;
+}
+.main-header .search-bar {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  width: 300px;
+  margin-left: 5px;
+  height: 40px; /* Set a uniform height */
+  line-height: 1.5; /* Adjusts the text alignment inside */
+  box-sizing: border-box;
+}
+.main-header .btn-small {
+  background-color: #0D52D6;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  height: 40px; /* Set a uniform height */
+  line-height: 1.5; /* Adjusts the text alignment inside */
+  box-sizing: border-box;
+  border-radius: 0.3rem;
+  color: white;
+}
+.main-header .head-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-header .head-logo {
+  display: flex;
+  gap: 1.5rem;
+}
+.main-header .head-cart {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.main-header .search {
+  display: flex;
+  gap: 0rem;
+}
+
+.nav-mob {
+  display: none;
+}
+
+@media (max-width: 786px) {
+  .nav-mob {
+    display: flex;
+    justify-content: space-between;
+    background-color: #d3d6da;
+  }
+  .nav-mob .nav-r {
+    display: flex;
+  }
+  .nav-mob .nav-l {
+    height: 40px;
+    width: auto;
+  }
+  .main-header {
+    display: none;
+  }
+  .menu-header {
+    display: none;
+  }
+}
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0D52D6;
+  font-size: 1.6rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+.menu-header .menu-l ul {
+  display: flex;
+  list-style-type: none;
+  gap: 0.5rem;
+  padding: 0px;
+  margin: 0px;
+}
+.menu-header .menu-l a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+.menu-header .menu-l a:hover {
+  background-color: rgb(0, 0, 10);
+}
+.menu-header .menu-l a:active {
+  background-color: rgb(254, 212, 48);
+}
+.menu-header .menu-l a:visited {
+  background-color: rgb(254, 212, 48);
+}
+.menu-header .menu-l .badge {
+  position: absolute;
+  top: 150px;
+  left: 195px;
+  background-color: #ff6347; /* Red badge */
+  color: #fff;
+  font-size: 10px;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+.menu-header .highlighted {
+  background-color: rgb(254, 212, 48);
+}
+.menu-header .menu-r ul {
+  display: flex;
+  list-style-type: none;
+  gap: 0.5rem;
+  padding: 0px;
+  margin: 0px;
+}
+.menu-header .menu-r a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+.menu-header .menu-r a:hover {
+  background-color: rgb(0, 0, 10);
+}
+
+.main-banner {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+.main-banner .banner-1 {
+  height: 600px;
+  width: 60%;
+  border-radius: 0.4rem;
+}
+.main-banner .banner-2 {
+  width: 315px; /* Set your desired width */
+  height: 295px; /* Set your desired height */
+  overflow: hidden; /* Ensures the image does not overflow the div */
+  position: relative;
+  border-radius: 1rem;
+}
+.main-banner .banner-2 img {
+  width: 100%; /* Make the image fit the width of the container */
+  height: 100%; /* Maintain aspect ratio */
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-banner .caption {
+  display: flex;
+  justify-content: center;
+  top: 0px;
+}
+.main-banner .caption .caption button {
+  background-color: #0D52D6;
+}
+.main-banner .banner-3 {
+  width: 315px; /* Set your desired width */
+  height: 295px; /* Set your desired height */
+  overflow: hidden; /* Ensures the image does not overflow the div */
+  position: relative;
+  border-radius: 1rem;
+}
+.main-banner .banner-3 img {
+  width: 100%; /* Make the image fit the width of the container */
+  height: 100%; /* Maintain aspect ratio */
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-banner .banner-r {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.main-banner .carousel-inner {
+  border-radius: 1rem;
+}
+.main-banner .carousel-caption {
+  top: 20%;
+  position: absolute;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-shadow: 10px;
+}
+.main-banner .carousel-caption button {
+  background-color: #0D52D6;
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+  border: 0px solid white;
+  color: white;
+  font-size: 1.4rem;
+}
+.main-banner .carousel-caption h1 {
+  text-shadow: 2px 2px black;
+}
+
+.hero-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4.5rem;
+  padding: 2rem;
+  background-color: #38434e;
+  font-size: 2rem;
+}
+.hero-sec .hero-1 img {
+  height: 5rem;
+  width: 5rem;
+}
+.hero-sec .hero-1 {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.hero-sec .hero-1 h3 {
+  font-size: 2.4rem;
+  color: white;
+}
+.hero-sec .hero-1 p {
+  font-size: 1.6rem;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.about h1 {
+  font-weight: 600;
+  font-size: 2.4rem;
+}
+
+.about p {
+  font-weight: 200;
+  font-size: 1.4rem;
+  color: #38434e;
+}
+
+.about-para {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+
+.Categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.Categories-nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style-type: none;
+  background-color: #d3d6da;
+  margin: 0;
+  padding: 0;
+}
+
+.Categories-nav a {
+  color: white;
+  font-size: 1.6rem;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.Categories-nav a:hover {
+  background-color: #0D52D6;
+}
+
+.Categories-nav a:visited {
+  background-color: #0D52D6;
+}
+
+.shop {
+  padding: 3rem;
+}
+
+.carrousel-item {
+  width: 100%; /* Make the image fit the width of the container */
+  height: 100%; /* Maintain aspect ratio */
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: flex;
+  flex-direction: row;
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+.inn-btn {
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: 0.4rem;
+  background-color: #d3d6da;
+  padding: 0.4rem;
+  border: 0px solid white;
+  color: black;
+  font-size: 1.4rem;
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  background-color: #F0F2F5;
+  padding: 0.5rem;
+  margin: 0 0;
+}
+
+.card-body a {
+  font-size: 1.4rem;
+}
+
+.title {
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.brand {
+  color: grey;
+  font-size: 12px;
+}
+
+.price {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.price del {
+  color: #888;
+  font-size: 14px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.actions .quantity {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.actions .quantity input {
+  width: 5rem;
+  height: 3rem;
+  text-align: center;
+}
+
+.actions .quantity button {
+  background-color: #eee;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.actions .quantity .add-to-cart {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.det {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.card {
+  width: 30rem;
+}
+
+.c-icons i {
+  font-size: 2.2rem;
+}
+
+.c-icons {
+  display: flex;
+  gap: 1.5rem;
+  padding-right: 2rem;
+}
+
+.p-card {
+  display: flex;
+  gap: 1.3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-btn {
+  background-color: #0D52D6;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  height: 40px; /* Set a uniform height */
+  line-height: 1.5; /* Adjusts the text alignment inside */
+  box-sizing: border-box;
+  border-radius: 0.3rem;
+  color: white;
+}
+
+.featured {
+  display: flex;
+  flex-direction: column;
+  background-color: #F8F8F8;
+}
+
+.card .badge-c {
+  position: absolute;
+  right: 0.3rem;
+  top: 0.3rem;
+  background-color: #ffd447; /* Red badge */
+  color: #fff;
+  font-size: 10px;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+.card .pre-order-badge {
+  position: absolute;
+  top: 25px;
+  left: -10px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  transform: rotate(-45deg);
+  background-color: #ff4769; /* Red badge */
+  color: #fff;
+  text-align: center;
+  padding: 0px 23px;
+  font-size: 10px;
+}
+
+.featured-category {
+  background-color: #F0F2F5;
+  padding: 2rem;
+}
+
+.catelogue {
+  display: flex;
+  justify-content: center;
+}
+
+.cat-right {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.right-container {
+  display: flex;
+}
+
+.cat-left {
+  padding: 3rem;
+  background-color: #D7DADE;
+}
+
+.card-body ul {
+  list-style-type: none;
+}
+
+.card-body li a {
+  text-decoration: none;
+  color: black;
+}
+
+.img-c img {
+  width: 300px;
+  height: 200px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,32 @@
+@import '../base/typography';
+
+.shop{
+    padding: 3rem;
+}
+
+.carrousel-item{
+    width: 100%; /* Make the image fit the width of the container */
+        height: 100%; /* Maintain aspect ratio */
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+        display: flex;
+        flex-direction: row;
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+.inn-btn{
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 0.4rem;
+    background-color: $secondary-color;
+    padding: 0.4rem;
+    border: 0px solid white;
+    color: black;
+    font-size: 1.4rem;
+}

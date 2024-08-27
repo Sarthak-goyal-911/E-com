@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        /* Navigation Bar Styling */
+        .navbar {
+            display: flex;
+            align-items: center;
+            background-color: #0062cc; /* Blue background */
+            padding: 10px 20px;
+        }
+
+        .navbar-menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex: 1;
+        }
+
+        .navbar-menu li {
+            margin: 0;
+            position: relative;
+        }
+
+        .navbar-menu a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+            padding: 10px 20px;
+            display: block;
+        }
+
+        .navbar-menu .highlighted {
+            background-color: #ffc107; /* Yellow background */
+            color: #000;
+        }
+
+        .navbar-menu a:hover {
+            background-color: #004bb5; /* Darker blue on hover */
+        }
+
+        .navbar-menu .highlighted .sale-badge,
+        .navbar-menu .highlighted .new-badge {
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            background-color: #ff6347; /* Red badge */
+            color: #fff;
+            font-size: 10px;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+
+        .navbar-contact {
+            color: #fff;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .navbar-contact i {
+            margin-right: 8px;
+        }
+
+        .blog-button {
+            background-color: #ffc107; /* Yellow background */
+            color: #000;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        .blog-button:hover {
+            background-color: #e0a800;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <ul class="navbar-menu">
+            <li class="highlighted">
+                <a href="#"><i class="fa fa-bars"></i> ALL DEPARTMENTS</a>
+                <span class="sale-badge">Sale</span>
+            </li>
+            <li><a href="#">MULTILEVEL</a></li>
+            <li class="highlighted">
+                <a href="#">MEGA MENU</a>
+                <span class="new-badge">New</span>
+            </li>
+            <li><a href="#">FULLWIDTH</a></li>
+        </ul>
+        <div class="navbar-contact">
+            <i class="fa fa-phone-alt"></i> 1.800.555.6789
+        </div>
+        <a href="#" class="blog-button"><i class="fa fa-comment-alt"></i> BLOG</a>
+    </div>
+
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
