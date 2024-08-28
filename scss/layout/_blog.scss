@@ -1,0 +1,40 @@
+@import '../base/typography';
+
+.blog-cards{
+   .blog-cards .card h1{
+        display: flex;
+        justify-content: center;
+    }
+}
+.card .blog-c-b{
+    text-align: center;
+}
+.blog-cards{
+    justify-content: center;
+}
+swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-pagination {
+    
+    text-align: center;
+    transition: opacity 0.3s;
+    transform: translate3d(0px, 0px, 0px);
+    z-index: 10;
+}

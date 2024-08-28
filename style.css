@@ -1,0 +1,31 @@
+@media(max-width:786px){
+    .header{
+        display:none;
+    }
+    .main-header{
+        display: none;
+    }
+    .menu-header{
+        display: none;
+    }
+    
+
+    .main-banner{
+        flex-direction: column;
+        gap: 0px;
+        
+    }
+
+
+.hero-sec{
+    flex-wrap: wrap;
+}
+.about-para{
+    padding: 0px;
+}
+.Categories{
+    padding-left: 100px;
+    padding-right: 10px;
+}
+
+}

@@ -1,0 +1,12 @@
+@import '../base/typography';
+.socials{
+    padding: 1rem;
+    background-color: $secondary-color;
+}
+.social-icons ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    font-size: 3.5rem;
+}

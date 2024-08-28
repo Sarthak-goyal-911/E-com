@@ -1,0 +1,43 @@
+@import '../base/typography';
+.most-viewed{
+    background-color: $tertiary-col;
+    padding: 2rem;
+}
+.head-most{
+    color: white;
+}
+
+.most-card{
+    display: flex;
+    background-color: white;
+    border-radius: 0.5rem;
+    width: 350px;
+    
+}
+.most-card p{
+    font-size: 1.2rem;
+}
+.c-l{
+    height: 105px;
+    width: 100px;
+    img{
+        width: 100px;
+        height: 110px;
+    }
+    object-fit: cover;
+    overflow: hidden;
+    
+}
+.c-r{
+    padding: 1rem;
+}
+.most-items{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.most-icons{
+    display: flex;
+    font-size: 2rem;
+    gap: 1rem;
+}

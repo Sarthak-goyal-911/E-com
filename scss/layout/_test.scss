@@ -1,0 +1,27 @@
+@import '../base/typography';
+.testimonial{
+    padding: 2rem;
+}
+
+.test{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.test-card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    border-radius: 0.5rem;
+    width: 400px;
+    gap: 1rem;
+    
+}
+.test-card i{
+    font-size: 3rem;
+}
+.test-card p{
+    font-size: 1rem;
+}
