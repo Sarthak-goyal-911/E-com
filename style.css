@@ -12,8 +12,12 @@
 
     .main-banner{
         flex-direction: column;
-        gap: 0px;
+        gap: 1.2rem;
         
+    }
+    .main-banner .banner-r{
+        display: flex;
+        flex-direction: row;
     }
 
 
@@ -23,9 +27,155 @@
 .about-para{
     padding: 0px;
 }
-.Categories{
-    padding-left: 100px;
-    padding-right: 10px;
+swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  swiper-slide {
+    width: 60%;
+  }
+
+  swiper-slide:nth-child(2n) {
+    width: 40%;
+  }
+
+  swiper-slide:nth-child(3n) {
+    width: 20%;
+  }
+  
+  .products{
+    display: none;
+  }
+  .res-product{
+    display: flex;
+  }
+  .res-product .carousel-inner{
+    padding-left:4rem ;
+    padding-right: 4rem;
+  }
+/* .Categories{
+} */
+ .res-car{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .res-car .card{
+    display: flex;
+    overflow: hidden;
+ }
+.det{
+    padding: 1.2rem;
+}
+ .car{
+    display: none;
+ }
+.right-container{
+    padding: 3rem;
+    flex-direction: column;
+}
+.catelogue{
+    flex-direction: column;
+}
+.brands{
+    height: 250px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.gallery{
+    height: 650px;
+    padding: 2rem;
+}
+.imgs{
+    flex-wrap: wrap;
+}
+.testimonial .carousel-inner{
+    border-radius: 1.2rem;
+}
+.test-card{
+    padding: 0px;
+}
+.test-card p{
+    font-size: 1.4rem;
+}
+.test-card h3{
+    font-size: 2rem;
+}
+.test-card i{
+    font-size: 4.5rem;
+}
+
+
+
+.most-viewed{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 350px;
+    width: 100%;
+}
+.most-card{
+    flex-direction: column;
+
+}
+.most-items{
+    margin-top: 0px;
+}
+
+.c-l{
+    padding: 2px;
+}
+.most-card h1{
+    font-size: 1.5rem;
+}
+.most-card i{
+    font-size: 1.5rem;
+}
+.most-card p{
+    font-size: 1.2rem;
+}
+
+.social-icons ul{
+    gap: 20px;
+}
+
+.Footer{
+    flex-direction: column;
+}
+.ab{
+    padding: 1.5rem;
+}
+.foot-last{
+    flex-direction: column;
+}
+.foot-last p{
+    font-size: 1.5rem;
+}
+.foot-last ul{
+    gap: 2rem;
 }
 
 }

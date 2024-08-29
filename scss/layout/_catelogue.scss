@@ -18,6 +18,7 @@
 }
 .right-container{
     display: flex;
+    gap: 1.2rem;
 }
 .cat-left{
     padding: 3rem;
@@ -34,4 +35,8 @@
 .img-c img{
     width: 300px;
     height: 200px;
+}
+
+.res-car{
+    display: none;
 }

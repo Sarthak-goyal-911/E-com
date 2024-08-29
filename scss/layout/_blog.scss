@@ -1,5 +1,11 @@
 @import '../base/typography';
 
+.Blog{
+  display: flex;
+  flex-direction: column;
+  background-color: #F8F8F8;
+  height: 700px;
+}
 .blog-cards{
    .blog-cards .card h1{
         display: flex;
@@ -8,9 +14,14 @@
 }
 .card .blog-c-b{
     text-align: center;
+    padding: 1rem;
 }
 .blog-cards{
     justify-content: center;
+}
+.first{
+    display: flex;
+    gap: 1.5rem;
 }
 swiper-container {
     width: 100%;
@@ -23,6 +34,7 @@ swiper-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px;
   }
 
   swiper-slide img {
@@ -38,3 +50,7 @@ swiper-container {
     transform: translate3d(0px, 0px, 0px);
     z-index: 10;
 }
+.res-blog{
+  display: none;
+}
+

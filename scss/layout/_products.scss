@@ -108,6 +108,7 @@
 .featured{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background-color: $bg-col;
 }
 .card .badge-c{
@@ -133,4 +134,7 @@
     padding: 0px 23px;
     font-size: 10px;
   
+}
+.res-product{
+    display: none;
 }

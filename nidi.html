@@ -1,113 +1,209 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigation Bar Example</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        /* Navigation Bar Styling */
-        .navbar {
-            display: flex;
-            align-items: center;
-            background-color: #0062cc; /* Blue background */
-            padding: 10px 20px;
-        }
-
-        .navbar-menu {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex: 1;
-        }
-
-        .navbar-menu li {
-            margin: 0;
-            position: relative;
-        }
-
-        .navbar-menu a {
-            text-decoration: none;
-            color: #fff;
-            font-size: 16px;
-            padding: 10px 20px;
-            display: block;
-        }
-
-        .navbar-menu .highlighted {
-            background-color: #ffc107; /* Yellow background */
-            color: #000;
-        }
-
-        .navbar-menu a:hover {
-            background-color: #004bb5; /* Darker blue on hover */
-        }
-
-        .navbar-menu .highlighted .sale-badge,
-        .navbar-menu .highlighted .new-badge {
-            position: absolute;
-            top: -8px;
-            right: -8px;
-            background-color: #ff6347; /* Red badge */
-            color: #fff;
-            font-size: 10px;
-            padding: 2px 4px;
-            border-radius: 3px;
-        }
-
-        .navbar-contact {
-            color: #fff;
-            font-size: 16px;
-            display: flex;
-            align-items: center;
-            padding: 10px 20px;
-        }
-
-        .navbar-contact i {
-            margin-right: 8px;
-        }
-
-        .blog-button {
-            background-color: #ffc107; /* Yellow background */
-            color: #000;
-            padding: 10px 20px;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-        }
-
-        .blog-button:hover {
-            background-color: #e0a800;
-        }
-    </style>
-</head>
-<body>
-
-    <div class="navbar">
-        <ul class="navbar-menu">
-            <li class="highlighted">
-                <a href="#"><i class="fa fa-bars"></i> ALL DEPARTMENTS</a>
-                <span class="sale-badge">Sale</span>
-            </li>
-            <li><a href="#">MULTILEVEL</a></li>
-            <li class="highlighted">
-                <a href="#">MEGA MENU</a>
-                <span class="new-badge">New</span>
-            </li>
-            <li><a href="#">FULLWIDTH</a></li>
-        </ul>
-        <div class="navbar-contact">
-            <i class="fa fa-phone-alt"></i> 1.800.555.6789
+<div class="container text-center my-3">
+    <div class="row mx-auto my-auto">
+        <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+            <div class="carousel-inner " role="listbox">
+                <div class="carousel-item active">
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                            <img class="img-fluid" src="./images/pexels-alexandra-maria-58259-336372.jpg">
+                            <div class="carousel-caption d-none d-md-block">
+                                <button class="inn-btn">Footwear</button>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                            <img class="img-fluid" src="./images/pexels-designecologist-1005058.jpg">
+                            <div class="carousel-caption d-none d-md-block">
+                                <button class="inn-btn">Home Decor</button>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                            <img class="img-fluid" src="./images/pexels-godisable-jacob-226636-932401.jpg">
+                            <div class="carousel-caption d-none d-md-block">
+                                <button class="inn-btn">Bags</button>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                            <img class="img-fluid" src="./images/pexels-jmendezrf-1536619.jpg">
+                            <div class="carousel-caption d-none d-md-block">
+                                <button class="inn-btn">Fashion</button>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                            <img class="img-fluid" src="./images/pexels-alexandra-maria-58259-336372.jpg">
+                            <div class="carousel-caption d-none d-md-block">
+                                <button class="inn-btn">Footwear</button>
+                              </div>                            </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                            <img class="img-fluid" src="./images/pexels-designecologist-1005058.jpg">
+                            <div class="carousel-caption d-none d-md-block">
+                                <button class="inn-btn">Home Decor</button>
+                              </div>                            </div>
+                    </div>
+                </div>
+              
+             
+                
+            </div>
+            <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-        <a href="#" class="blog-button"><i class="fa fa-comment-alt"></i> BLOG</a>
     </div>
+</div>
 
-    <!-- Font Awesome for icons -->
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-</body>
-</html>
+
+
+
+
+<div class="card"  >
+    <div class="img-c">
+         <img src="./images/f1.jpg" class="card-img-top" alt="...">
+    </div>
+    <span class="badge-c">HOT</span>
+    <span class="pre-order-badge">pre-order</span>
+      <div class="det">
+        <div class="title">LG Smart TV</div>
+        <div class="price">$999.00</div>
+        <div class="actions">
+            <div class="quantity">
+                <input type="number" value="1">
+                <button class="add-to-cart">ADD TO CART</button>
+            </div>
+           <div class="c-icons">
+            <a href=""><i class="fa-regular fa-heart"></i></a>
+            <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
+           </div>
+        </div>
+      </div>
+   
+  </div>
+
+
+  <div class="card" >
+    <div class="img-c">
+         <img src="./images/f2.jpg" class="card-img-top" alt="...">
+    </div>
+    <span class="pre-order-badge">pre-order</span>
+      <div class="det">
+        <div class="title">LG Smart TV</div>
+        <div class="price">$999.00</div>
+        <div class="actions">
+            <div class="quantity">
+                <input type="number" value="1">
+                <button class="add-to-cart">ADD TO CART</button>
+            </div>
+           <div class="c-icons">
+            <a href=""><i class="fa-regular fa-heart"></i></a>
+            <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
+           </div>
+        </div>
+      </div>
+    
+  </div>
+
+  <div class="card" >
+    <div class="img-c">
+         <img src="./images/f2.jpg" class="card-img-top" alt="...">
+    </div>
+    <span class="badge-c">HOT</span>
+    <span class="pre-order-badge">pre-order</span>
+      <div class="det">
+        <div class="title">LG Smart TV</div>
+        <div class="price">$99.00</div>
+        <div class="actions">
+            <div class="quantity">
+                <input type="number" value="1">
+                <button class="add-to-cart">ADD TO CART</button>
+            </div>
+           <div class="c-icons">
+            <a href=""><i class="fa-regular fa-heart"></i></a>
+            <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
+           </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="right-container">
+    <div class="card"  >
+        <div class="img-c">
+             <img src="./images/f1.jpg" class="card-img-top" alt="...">
+        </div>
+        <span class="badge-c">HOT</span>
+        <span class="pre-order-badge">pre-order</span>
+          <div class="det">
+            <div class="title">LG Smart TV</div>
+            <div class="price">$999.00</div>
+            <div class="actions">
+                <div class="quantity">
+                    <input type="number" value="1">
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+               <div class="c-icons">
+                <a href=""><i class="fa-regular fa-heart"></i></a>
+                <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
+               </div>
+            </div>
+          </div>
+       
+      </div>
+      <div class="card" >
+        <div class="img-c">
+             <img src="./images/f2.jpg" class="card-img-top" alt="...">
+        </div>
+        <span class="pre-order-badge">pre-order</span>
+          <div class="det">
+            <div class="title">LG Smart TV</div>
+            <div class="price">$999.00</div>
+            <div class="actions">
+                <div class="quantity">
+                    <input type="number" value="1">
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+               <div class="c-icons">
+                <a href=""><i class="fa-regular fa-heart"></i></a>
+                <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
+               </div>
+            </div>
+          </div>
+        
+      </div>
+      <div class="card" >
+        <div class="img-c">
+             <img src="./images/f2.jpg" class="card-img-top" alt="...">
+        </div>
+        <span class="badge-c">HOT</span>
+        <span class="pre-order-badge">pre-order</span>
+          <div class="det">
+            <div class="title">LG Smart TV</div>
+            <div class="price">$99.00</div>
+            <div class="actions">
+                <div class="quantity">
+                    <input type="number" value="1">
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+               <div class="c-icons">
+                <a href=""><i class="fa-regular fa-heart"></i></a>
+                <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
+               </div>
+            </div>
+          </div>
+      </div>
+      
+</div>

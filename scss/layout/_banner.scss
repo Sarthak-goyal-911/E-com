@@ -7,19 +7,15 @@
     padding: 1rem;
 
     .banner-1{
-        height:600px;
-        width: 60%;
         border-radius: 0.4rem;
         
     }
     .banner-2{
-        width: 315px; /* Set your desired width */
-        height: 295px; /* Set your desired height */
+       
         overflow: hidden; /* Ensures the image does not overflow the div */
         position: relative;
         border-radius: 1rem;
-
-        
+        object-fit: cover;
     }
     .banner-2 img{
         width: 100%; /* Make the image fit the width of the container */
@@ -28,6 +24,22 @@
         max-height: 100%;
         object-fit: cover;
     }
+    .carousel-caption d-none d-md-block .btn {
+        background-color: rgb(236, 236, 240);
+        color: white;
+        border: none;
+        font-size: medium;
+        border:none;
+      }
+      
+      .carousal-btn:hover{
+        background-color:blue;
+        color:white;
+      }
+      .carousel-caption{
+        background-color:transparent !important;
+        padding:85px 2px !important;
+      }
     .caption{
         display: flex;
         justify-content: center;
@@ -37,10 +49,10 @@
         }
     }
     .banner-3{
-        width: 315px; /* Set your desired width */
-        height: 295px; /* Set your desired height */
+      
         overflow: hidden; /* Ensures the image does not overflow the div */
         position: relative;
+        object-fit: cover;
         border-radius: 1rem;
 
     }

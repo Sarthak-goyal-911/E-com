@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
 }
 
 html {
@@ -32,7 +32,7 @@ html {
   font-weight: 400;
   font-size: xx-large;
   font-size: 1.6rem;
-  background-color: #d3d6da;
+  background-color: #F7F7F7;
   padding: 2rem;
 }
 .main-header .search-bar {
@@ -178,16 +178,14 @@ html {
   padding: 1rem;
 }
 .main-banner .banner-1 {
-  height: 600px;
-  width: 60%;
   border-radius: 0.4rem;
 }
 .main-banner .banner-2 {
-  width: 315px; /* Set your desired width */
-  height: 295px; /* Set your desired height */
   overflow: hidden; /* Ensures the image does not overflow the div */
   position: relative;
   border-radius: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .main-banner .banner-2 img {
   width: 100%; /* Make the image fit the width of the container */
@@ -196,6 +194,21 @@ html {
   max-height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.main-banner .carousel-caption d-none d-md-block .btn {
+  background-color: rgb(236, 236, 240);
+  color: white;
+  border: none;
+  font-size: medium;
+  border: none;
+}
+.main-banner .carousal-btn:hover {
+  background-color: blue;
+  color: white;
+}
+.main-banner .carousel-caption {
+  background-color: transparent !important;
+  padding: 85px 2px !important;
 }
 .main-banner .caption {
   display: flex;
@@ -206,10 +219,10 @@ html {
   background-color: #0D52D6;
 }
 .main-banner .banner-3 {
-  width: 315px; /* Set your desired width */
-  height: 295px; /* Set your desired height */
   overflow: hidden; /* Ensures the image does not overflow the div */
   position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 1rem;
 }
 .main-banner .banner-3 img {
@@ -286,6 +299,10 @@ html {
   color: rgb(139, 145, 152);
 }
 
+.wrp {
+  padding: 3rem;
+}
+
 .about {
   display: flex;
   flex-direction: column;
@@ -296,14 +313,14 @@ html {
 }
 
 .about h1 {
-  font-weight: 600;
-  font-size: 2.4rem;
+  font-weight: 700;
+  font-size: 3rem;
 }
 
 .about p {
   font-weight: 200;
   font-size: 1.4rem;
-  color: rgb(58, 71, 84);
+  color: rgb(139, 145, 152);
 }
 
 .about-para {
@@ -328,6 +345,7 @@ html {
   background-color: #d3d6da;
   margin: 0;
   padding: 0;
+  border-radius: 1rem;
 }
 
 .Categories-nav a {
@@ -341,10 +359,12 @@ html {
 
 .Categories-nav a:hover {
   background-color: #0D52D6;
+  border-radius: 1rem;
 }
 
 .Categories-nav a:visited {
   background-color: #0D52D6;
+  border-radius: 1rem;
 }
 
 .shop {
@@ -500,6 +520,7 @@ html {
 .featured {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   background-color: #F8F8F8;
 }
 
@@ -528,6 +549,10 @@ html {
   font-size: 10px;
 }
 
+.res-product {
+  display: none;
+}
+
 .featured-category {
   background-color: #F0F2F5;
   padding: 2rem;
@@ -547,6 +572,7 @@ html {
 
 .right-container {
   display: flex;
+  gap: 1.2rem;
 }
 
 .cat-left {
@@ -566,6 +592,17 @@ html {
 .img-c img {
   width: 300px;
   height: 200px;
+}
+
+.res-car {
+  display: none;
+}
+
+.brands {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 250px;
 }
 
 .brands-container .slide-track {
@@ -596,12 +633,13 @@ html {
 .gallery {
   background-color: rgb(58, 71, 84);
   padding: 2rem;
+  height: 350px;
 }
 .gallery .about h1 {
-  color: white;
+  color: rgb(230, 230, 230);
 }
 .gallery .about p {
-  color: aliceblue;
+  color: rgb(139, 145, 152);
 }
 
 .imgs {
@@ -621,6 +659,13 @@ html {
      object-fit: cover;
 }
 
+.Blog {
+  display: flex;
+  flex-direction: column;
+  background-color: #F8F8F8;
+  height: 700px;
+}
+
 .blog-cards .blog-cards .card h1 {
   display: flex;
   justify-content: center;
@@ -628,10 +673,16 @@ html {
 
 .card .blog-c-b {
   text-align: center;
+  padding: 1rem;
 }
 
 .blog-cards {
   justify-content: center;
+}
+
+.first {
+  display: flex;
+  gap: 1.5rem;
 }
 
 swiper-container {
@@ -645,6 +696,7 @@ swiper-slide {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 50px;
 }
 
 swiper-slide img {
@@ -662,8 +714,16 @@ swiper-slide img {
   z-index: 10;
 }
 
+.res-blog {
+  display: none;
+}
+
 .testimonial {
   padding: 2rem;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
 }
 
 .test {
@@ -676,27 +736,36 @@ swiper-slide img {
   display: flex;
   flex-direction: column;
   text-align: center;
+  justify-content: center;
   background-color: white;
   border-radius: 0.5rem;
   width: 400px;
+  height: 250px;
   gap: 1rem;
 }
 
 .test-card i {
-  font-size: 3rem;
+  font-size: 3.9rem;
 }
 
 .test-card p {
-  font-size: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+  text-wrap: wrap;
 }
 
 .most-viewed {
   background-color: rgb(58, 71, 84);
   padding: 2rem;
+  height: 250px;
 }
 
 .head-most {
   color: white;
+}
+
+.head-most hr {
+  width: 20%;
 }
 
 .most-card {
@@ -727,6 +796,7 @@ swiper-slide img {
 }
 
 .most-items {
+  margin-top: 4rem;
   display: flex;
   gap: 2rem;
   justify-content: center;
@@ -763,10 +833,11 @@ swiper-slide img {
 
 .ab ul {
   list-style-type: none;
+  line-height: 1.9;
 }
 
 .ab a {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .ab p {

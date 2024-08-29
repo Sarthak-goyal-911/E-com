@@ -14,6 +14,7 @@
     background-color: $secondary-color;
     margin: 0;
     padding: 0;
+    border-radius: 1rem;
 }
 .Categories-nav a{
     color: white;
@@ -25,7 +26,10 @@
 }
 .Categories-nav a:hover{
     background-color: $primary-col;
+    border-radius: 1rem;
 }
 .Categories-nav a:visited{
     background-color: $primary-col;
+    border-radius: 1rem;
+
 }

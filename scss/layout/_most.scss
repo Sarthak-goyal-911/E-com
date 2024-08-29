@@ -2,9 +2,13 @@
 .most-viewed{
     background-color: $tertiary-col;
     padding: 2rem;
+    height: 250px;
 }
 .head-most{
     color: white;
+}
+.head-most hr{
+    width: 20%;
 }
 
 .most-card{
@@ -32,6 +36,7 @@
     padding: 1rem;
 }
 .most-items{
+    margin-top: 4rem;
     display: flex;
     gap: 2rem;
     justify-content: center;
