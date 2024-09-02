@@ -1,9 +1,12 @@
 @import '../base/typography';
 
-.shop{
-    padding: 3rem;
+// .shop{
+//     // padding: 3rem;
+// }
+.shop-class{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
-
 .carrousel-item{
     width: 100%; /* Make the image fit the width of the container */
         height: 100%; /* Maintain aspect ratio */
@@ -12,6 +15,10 @@
         object-fit: cover;
         display: flex;
         flex-direction: row;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #561414;
 }
 
 .carousel-inner .carousel-item.active,

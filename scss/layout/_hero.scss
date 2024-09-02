@@ -1,9 +1,8 @@
 @import '../base/typography';
 .hero-sec{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 4.5rem;
     padding: 2rem;
     background-color: $tertiary-col;
     font-size: 2rem;

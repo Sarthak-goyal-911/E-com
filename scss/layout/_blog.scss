@@ -18,7 +18,18 @@
 }
 .blog-cards{
     justify-content: center;
+    display: none;
 }
+.card .c-img{
+  object-fit: cover;
+}
+// .image-gallery img{
+//   width: 100%;
+//   height: 100%;
+// }
+// .card .image-gallery{
+//   object-fit: cover;
+// }
 .first{
     display: flex;
     gap: 1.5rem;

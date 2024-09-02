@@ -6,7 +6,9 @@
 html{
     font-size: 62.5%;
 }
+
 @import './base/typography';
+@import './layout/wrapper';
 @import './layout/header';
 @import './layout/banner';
 @import './layout/hero';

@@ -2,8 +2,10 @@
 
 .gallery{
     background-color: $tertiary-col ;
-    padding: 2rem;
-    height: 350px;
+    // padding: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 7rem;
+    // height: 350px;
 .about h1{
     color: rgba(230, 230, 230, 1);
 }
@@ -12,12 +14,14 @@
 }
 
 }
-
+.img-gallery{
+    padding-top: 3rem;
+}
 
 .imgs{
     display: flex;
     gap: 2.5rem;
-    justify-content: center;
+    justify-content: space-between;
     overflow: hidden;
     img{
         width: 100px;

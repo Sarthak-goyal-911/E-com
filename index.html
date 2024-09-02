@@ -6,9 +6,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./scss/sass/main.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -16,8 +21,12 @@
     <title>Document</title>
 </head>
 <body>
+  <div class="wrapper">
+
     <div class="header">
+      
         <nav>
+
             <ul class="top-header">
                 <div class="r">
                     <ul class="r-r">
@@ -51,6 +60,8 @@
             </ul>
         </nav>
     </div>
+  </div>
+
     <div class="nav-mob">
         <div class="nav-l">
             <img src="./images/j-logo.svg" alt="">
@@ -64,12 +75,16 @@
 
 
     <!----------------header start--------->
+    <div class="main" style="background-color: #F7F7F7;">
+<div class="wrapper">
+
     <div class="main-header">
+
         <div>
             <img src="./images/j-logo.svg" alt="">
         </div>
         <div class="search">
-            <button class="btn-small">All <i class="fa-solid fa-caret-down"></i></button><input class="search-bar" type="text" placeholder="Search here..."><button class="btn-small"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button class="btn-small" style="border-top-right-radius: 0px; border-bottom-right-radius: 0px;">All <i class="fa-solid fa-caret-down"></i></button><input class="search-bar" type="text" placeholder="Search here..."><button class="btn-small" style="border-top-left-radius: 0px; border-bottom-left-radius: 0px;"><i class="fa-solid fa-magnifying-glass"></i></button>
         </div>
         <div class="head-logo">
             <div class="head-icons">
@@ -90,29 +105,45 @@
             <p>0 item(s) - 0 $</p>
             <button class="btn-small"><i class="fa-solid fa-cart-shopping"></i></button>
         </div>
+      
     </div>
+  
+  </div>
+</div>
 <!-----------------------------Menu-header----------------------->
+<div class="menu" style="background-color:#0D52D6 ;">
+
+<div class="wrapper">
+
 <div class="menu-header">
+  
     <div class="menu-l">
+      
         <ul>
-            <li><a href="#" class="highlighted">ALL Department</a>
+            <li><a href="#" class="highlighted" style="color: black;"><i class="fa-solid fa-bars"></i>  ALL Department</a>
             <span class="badge">Sale</span></li>
             <li><a href="">Multi level</a></li>
-            <li><a href="">Mega Menu</a></li>
+            <li><a href="">Mega Menu</a>
+              <span class="badge-n">New</span></li>
             <li><a href="">Full Width</a></li>
            
         </ul>
     </div>
     <div class="menu-r">
         <ul>
-            <li><a href=""><i class="fa-solid fa-phone"></i>1800XXXXXX</a></li>
-            <li><a href="#" class="highlighted"><i class="fa-solid fa-message"></i> Blog</a></li>
+            <li><a href=""><i class="fa-solid fa-phone-volume"></i> 1800XXXXXX</a></li>
+            <li><a href="#" class="highlighted" style="color: black;"><i class="fa-solid fa-message"></i> Blog</a></li>
         </ul>
     </div>
+  
+</div>
+</div>
 </div>
 
 <!----------------------carousal-->
-<div class="main-banner">
+<div class="wrapper">
+  <div class="main-banner">
+    
     <div class="banner-1">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -125,9 +156,9 @@
                 <img class="d-block w-100" src="./images/s3-960x450h.png.png" alt="First slide">
                 <div class="caption">
                     <div class="carousel-caption d-none d-md-block" style="text-align: left;">
-                        <button class="btn" style="background-color: blue; color: white;">Mobile</button>
-                        <p style="font-size: 2.5rem; color:black;">Best mobile options <br> at any resolution </p>
-                        <button class="carousal-btn">LEARN MORE <i class="fa-solid fa-arrow-right"></i></button>
+                        <button class="btn" style="background-color: #0D52D6; padding: 4px; font-weight: 700; color: white;">Mobile</button>
+                        <p style="font-size: 4.5rem; font-weight: 900; color:black;">Best mobile options <br> at any resolution </p>
+                        <button class="carousal-btn" style="padding: 10px; background-color: transparent; border: 1px solid black; color: rgba(0, 0, 0, 1);">LEARN MORE  <i class="fa-solid fa-arrow-right"></i></button>
                     </div>
                 </div>
                 
@@ -135,28 +166,28 @@
               <div class="carousel-item">
                 <img class="d-block w-100" src="./images/s2-960x450h.png.png" alt="Second slide">
                 <div class="carousel-caption d-none d-md-block" style="text-align: left;">
-                    <button class="btn" style="background-color: blue; color: white;">Mobile</button>
-                    <p style="font-size: 2.5rem; color:black;">Best mobile options <br> at any resolution </p>
-                    <button class="carousal-btn">LEARN MORE <i class="fa-solid fa-arrow-right"></i></button>
-                </div>
+                  <button class="btn" style="background-color: #0D52D6; padding: 4px; font-weight: 700; color: white;">Mobile</button>
+                  <p style="font-size: 4.5rem; font-weight: 900; color:black;">Best mobile options <br> at any resolution </p>
+                  <button class="carousal-btn" style="padding: 10px; background-color: transparent; border: 1px solid black; color: rgba(0, 0, 0, 1);">LEARN MORE  <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="./images/s1-1920x900h.png.png" alt="Third slide">
+                <img class="d-block w-100" src="./images/s3-960x450h.png.png" alt="Third slide">
                 <div class="carousel-caption d-none d-md-block" style="text-align: left;">
-                    <button class="btn" style="background-color: blue; color: white;">Mobile</button>
-                    <p style="font-size: 2.5rem; color:black;">Best mobile options <br> at any resolution </p>
-                    <button class="carousal-btn">LEARN MORE <i class="fa-solid fa-arrow-right"></i></button>
-                </div>
+                  <button class="btn" style="background-color: #0D52D6; padding: 4px; font-weight: 700; color: white;">Mobile</button>
+                  <p style="font-size: 4.5rem; font-weight: 900; color:black;">Best mobile options <br> at any resolution </p>
+                  <button class="carousal-btn" style="padding: 10px; background-color: transparent; border: 1px solid black; color: rgba(0, 0, 0, 1);">LEARN MORE  <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
               </div>
             </div>
             <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="sr-only">Previous</span>
             </a> -->
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <!-- <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="sr-only">Next</span>
-            </a>
+            </a> -->
           </div>
     </div>
     <div class="banner-r">
@@ -167,10 +198,15 @@
             <img src="./images/Screenshot 2024-08-29 161258.jpg" alt="">
           </div>
     </div>
-     
+  
+
+</div>
 </div>
 
+
 <!-----------hero-->
+<div class="hero" style="background-color: rgba(58, 71, 84, 1);">
+<div class="wrapper">
 <div class="hero-sec">
     <div class="hero-1">
         <div>
@@ -209,9 +245,13 @@
         </div>
     </div>
 </div>
-
+</div>
+</div>
 <!--------------------about-->
-<div class="wrp">
+<div class="wrapper">
+<div class="s-2">
+
+
     <div class="about">
         <div>
             <h1>Why Buy from us?</h1>
@@ -219,26 +259,28 @@
     
         </div>
     <div class="about-para">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, recusandae dolorem vel eum impedit maiores sunt reprehenderit tenetur delectus nesciunt deleniti! Dicta animi illum, nostrum harum hic autem quos quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="">Learn More</a></p>
+        <p>Journal has been the best selling and most loved Opencart theme since first launch in 2013. Tried and tested by over 20K people, Journal is the best Opencart theme framework on the market today. Learn more <a href="">Learn More</a></p>
     </div>
     </div>
-</div>
 
 <!-----------------------categories-->
 <div class="Categories">
     <div class="Categories-nav">
         <nav>
             <ul >
-                <li><a href="">Top Categories</a></li>
+                <li><a href="" style="background-color: #0D52D6;">Top Categories</a></li>
                 <li><a href="">Electronics</a></li>
                 <li><a href="">Beauty</a></li>
                 <li><a href="">Fashion</a></li>
+                <span><i class="fa-solid fa-caret-down" style="color:#0D52D6 ; font-size: 3rem; position: relative; right: 328px; top: 41px;"></i></span>
             </ul>
+            
         </nav>
     </div>
+    
 </div>
 <!-------------Categories shop---------->
-<div class="shop">
+<!-- <div class="shop">
     <div class="container text-center my-3">
         <div class="row mx-auto my-auto">
             <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
@@ -309,528 +351,572 @@
         </div>
     </div>
    
+</div> -->
+<div class="shop">
+  <div class="shop-class">
+    <div>
+      <div class="card">
+        <img src="images/demo1.jpg" class="d-block w-100" alt="Fashion">
+        <div class="carousel-caption d-none d-md-block">
+          <button class="inn-btn">FASHION</button>
+        </div>
+      </div>
+   </div>
+    <div><div class="card">
+      <img src="images/demo2.jfif" class="d-block w-100" alt="Health & Beauty">
+      <div class="carousel-caption d-none d-md-block">
+        <button class="inn-btn">BAGS</button>
+      </div>
+    </div></div>
+    <div><div class="card">
+      <img src="images/demo3.jfif" class="d-block w-100" alt="Health & Beauty">
+      <div class="carousel-caption d-none d-md-block">
+        <button class="inn-btn">HEALTH & BEAUTY</button>
+      </div>
+    </div></div>
+    <div><div class="card">
+      <img src="images/demo4.jfif" class="d-block w-100" alt="Health & Beauty">
+      <div class="carousel-caption d-none d-md-block">
+        <button class="inn-btn">FOOTWEAR</button>
+      </div>
+    </div></div>
+    <div><div class="card">
+      <img src="images/demo5.jfif" class="d-block w-100" alt="Health & Beauty">
+      <div class="carousel-caption d-none d-md-block">
+        <button class="inn-btn">HOME DECOR</button>
+      </div>
+    </div></div>
+    <div>your content</div>
+    <div>your content</div>
+  </div>
+</div>
+</div>
 </div>
 
 <!-------------------Featured------------>
-<div class="featured">
-    <div class="about">
-        <div>
-            <h1>Featured Products</h1>
-            <hr style="background-color: #c02121;">
-        </div>
-    <div class="about-para">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, recusandae dolorem vel eum impedit maiores sunt reprehenderit tenetur delectus nesciunt deleniti! Dicta animi illum, nostrum harum hic autem quos quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-    </div>
 
-    <div class="Categories-nav">
-        <nav>
-            <ul >
-                <li><a href="">Featured</a></li>
-                <li><a href="">Latest</a></li>
-                <li><a href="">BestSellers</a></li>
-                <li><a href="">Specials</a></li>
-            </ul>
-        </nav>
-    </div>
-    <div class="res-product">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="p-card">
-                    <div class="card" >
-                        <img src="./images/headphone.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <div>
-                                <p>Ericssion</p>
-                            </div>
-                            <div>
-                                <p>Model20192</p>
-                            </div>
+<div class="featured">
+  <div class="wrapper">
+    <div class="about">
+      <div>
+          <h1>Featured Products</h1>
+          <hr style="background-color: #c02121;">
+      </div>
+  <div class="about-para">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, recusandae dolorem vel eum impedit maiores sunt reprehenderit tenetur delectus nesciunt deleniti! Dicta animi illum, nostrum harum hic autem quos quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+  </div>
+
+  <div class="Categories-nav">
+      <nav>
+          <ul >
+              <li><a href="" style="background-color: #0D52D6;">Featured</a></li>
+              <li><a href="">Latest</a></li>
+              <li><a href="">BestSellers</a></li>
+              <li><a href="">Specials</a></li>
+          </ul>
+      </nav>
+  </div>
+  <div class="res-product">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="p-card">
+                  <div class="card" >
+                      <img src="./images/headphone.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <div>
+                              <p>Ericssion</p>
                           </div>
-                          <div class="det">
-                            <div class="title">Headphones</div>
-                            <div class="price">$99.00</div>
-                            <div class="actions">
-                                <div class="quantity">
-                                    <input type="number" value="1">
-                                    <button class="add-to-cart">ADD TO CART</button>
-                                </div>
-                               <div class="c-icons">
-                                <a href=""><i class="fa-regular fa-heart"></i></a>
-                                <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
-                               </div>
-                            </div>
+                          <div>
+                              <p>Model20192</p>
                           </div>
-                        <div class="card-body">
-                          <a href="#" class="card-link"><i class="fa-solid fa-dollar-sign fa-flip-both" style="color: #63E6BE;"></i> Buy Now</a>
-                          <a href="#" class="card-link"><i class="fa-regular fa-circle-question" style="color: #c02121;"></i> Question</a>
                         </div>
+                        <div class="det">
+                          <div class="title">Headphones</div>
+                          <div class="price">$99.00</div>
+                          <div class="actions">
+                              <div class="quantity">
+                                  <input type="number" value="1">
+                                  <button class="add-to-cart">ADD TO CART</button>
+                              </div>
+                             <div class="c-icons">
+                              <a href=""><i class="fa-regular fa-heart"></i></a>
+                              <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
+                             </div>
+                          </div>
+                        </div>
+                      <div class="card-body">
+                        <a href="#" class="card-link"><i class="fa-solid fa-dollar-sign fa-flip-both" style="color: #63E6BE;"></i> Buy Now</a>
+                        <a href="#" class="card-link"><i class="fa-regular fa-circle-question" style="color: #c02121;"></i> Question</a>
                       </div>
-                </div>
+                    </div>
               </div>
-              <div class="carousel-item">
-                <div class="p-card">
-                   
-                      <div class="card" >
-                        <img src="./images/heels.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <div>
-                                <p>Lecia Digital Camera</p>
-                            </div>
-                            <div>
-                                <p>Model20194</p>
-                            </div>
+            </div>
+            <div class="carousel-item">
+              <div class="p-card">
+                 
+                    <div class="card" >
+                      <img src="./images/heels.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <div>
+                              <p>Lecia Digital Camera</p>
                           </div>
-                          <div class="det">
-                            <div class="title">Lecia Digital Camera</div>
-                            <div class="price">$2,299.00</div>
-                            <div class="actions">
-                                <div class="quantity">
-                                    <input type="number" value="1">
-                                    <button class="add-to-cart">ADD TO CART</button>
-                                </div>
-                               <div class="c-icons">
-                                <a href=""><i class="fa-regular fa-heart"></i></a>
-                                <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
-                               </div>
-                            </div>
+                          <div>
+                              <p>Model20194</p>
                           </div>
-                        <div class="card-body">
-                          <a href="#" class="card-link"><i class="fa-solid fa-dollar-sign fa-flip-both" style="color: #63E6BE;"></i> Buy Now</a>
-                          <a href="#" class="card-link"><i class="fa-regular fa-circle-question" style="color: #c02121;"></i> Question</a>
                         </div>
+                        <div class="det">
+                          <div class="title">Lecia Digital Camera</div>
+                          <div class="price">$2,299.00</div>
+                          <div class="actions">
+                              <div class="quantity">
+                                  <input type="number" value="1">
+                                  <button class="add-to-cart">ADD TO CART</button>
+                              </div>
+                             <div class="c-icons">
+                              <a href=""><i class="fa-regular fa-heart"></i></a>
+                              <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
+                             </div>
+                          </div>
+                        </div>
+                      <div class="card-body">
+                        <a href="#" class="card-link"><i class="fa-solid fa-dollar-sign fa-flip-both" style="color: #63E6BE;"></i> Buy Now</a>
+                        <a href="#" class="card-link"><i class="fa-regular fa-circle-question" style="color: #c02121;"></i> Question</a>
                       </div>
-                      
-                </div>              </div>
-              <div class="carousel-item">
-                <div class="p-card">
+                    </div>
                     
-                      <div class="card" >
-                        <img src="./images/heel.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <div>
-                                <p>Ny fashion</p>
-                            </div>
-                            <div>
-                                <p>Model201</p>
-                            </div>
-                          </div>
-                          <div class="det">
-                            <div class="title">Women's Maria Pump</div>
-                            <div class="price">$59.00</div>
-                            <div class="actions">
-                                <div class="quantity">
-                                    <input type="number" value="1">
-                                    <button class="add-to-cart">ADD TO CART</button>
-                                </div>
-                               <div class="c-icons">
-                                <a href=""><i class="fa-regular fa-heart"></i></a>
-                                <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
-                               </div>
-                            </div>
-                          </div>
-                        <div class="card-body">
-                          <a href="#" class="card-link"><i class="fa-solid fa-dollar-sign fa-flip-both" style="color: #63E6BE;"></i> Buy Now</a>
-                          <a href="#" class="card-link"><i class="fa-regular fa-circle-question" style="color: #c02121;"></i> Question</a>
-                        </div>
-                      </div>
-                      
-                </div>              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-    </div>
-    <div class="products">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="p-card">
+              </div>              </div>
+            <div class="carousel-item">
+              <div class="p-card">
+                  
                     <div class="card" >
-                        <img src="./images/headphone.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <div>
-                                <p>Ericssion</p>
-                            </div>
-                            <div>
-                                <p>Model20192</p>
-                            </div>
+                      <img src="./images/heel.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <div>
+                              <p>Ny fashion</p>
                           </div>
-                          <div class="det">
-                            <div class="title">Headphones</div>
-                            <div class="price">$99.00</div>
-                            <div class="actions">
-                                <div class="quantity">
-                                    <input type="number" value="1">
-                                    <button class="add-to-cart">ADD TO CART</button>
-                                </div>
-                               <div class="c-icons">
-                                <a href=""><i class="fa-regular fa-heart"></i></a>
-                                <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
-                               </div>
-                            </div>
+                          <div>
+                              <p>Model201</p>
                           </div>
-                        <div class="card-body">
-                          <a href="#" class="card-link"><i class="fa-solid fa-dollar-sign fa-flip-both" style="color: #63E6BE;"></i> Buy Now</a>
-                          <a href="#" class="card-link"><i class="fa-regular fa-circle-question" style="color: #c02121;"></i> Question</a>
                         </div>
-                      </div>
-                      <div class="card" >
-                        <img src="./images/heels.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <div>
-                                <p>Lecia Digital Camera</p>
-                            </div>
-                            <div>
-                                <p>Model20194</p>
-                            </div>
+                        <div class="det">
+                          <div class="title">Women's Maria Pump</div>
+                          <div class="price">$59.00</div>
+                          <div class="actions">
+                              <div class="quantity">
+                                  <input type="number" value="1">
+                                  <button class="add-to-cart">ADD TO CART</button>
+                              </div>
+                             <div class="c-icons">
+                              <a href=""><i class="fa-regular fa-heart"></i></a>
+                              <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
+                             </div>
                           </div>
-                          <div class="det">
-                            <div class="title">Lecia Digital Camera</div>
-                            <div class="price">$2,299.00</div>
-                            <div class="actions">
-                                <div class="quantity">
-                                    <input type="number" value="1">
-                                    <button class="add-to-cart">ADD TO CART</button>
-                                </div>
-                               <div class="c-icons">
-                                <a href=""><i class="fa-regular fa-heart"></i></a>
-                                <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
-                               </div>
-                            </div>
-                          </div>
-                        <div class="card-body">
-                          <a href="#" class="card-link"><i class="fa-solid fa-dollar-sign fa-flip-both" style="color: #63E6BE;"></i> Buy Now</a>
-                          <a href="#" class="card-link"><i class="fa-regular fa-circle-question" style="color: #c02121;"></i> Question</a>
                         </div>
+                      <div class="card-body">
+                        <a href="#" class="card-link"><i class="fa-solid fa-dollar-sign fa-flip-both" style="color: #63E6BE;"></i> Buy Now</a>
+                        <a href="#" class="card-link"><i class="fa-regular fa-circle-question" style="color: #c02121;"></i> Question</a>
                       </div>
-                      <div class="card" >
-                        <img src="./images/heel.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <div>
-                                <p>Ny fashion</p>
-                            </div>
-                            <div>
-                                <p>Model201</p>
-                            </div>
+                    </div>
+                    
+              </div>              </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+  </div>
+  <div class="products">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="p-card">
+                  <div class="card" >
+                      <img src="./images/headphone.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <div>
+                              <p>Ericssion</p>
                           </div>
-                          <div class="det">
-                            <div class="title">Women's Maria Pump</div>
-                            <div class="price">$59.00</div>
-                            <div class="actions">
-                                <div class="quantity">
-                                    <input type="number" value="1">
-                                    <button class="add-to-cart">ADD TO CART</button>
-                                </div>
-                               <div class="c-icons">
-                                <a href=""><i class="fa-regular fa-heart"></i></a>
-                                <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
-                               </div>
-                            </div>
+                          <div>
+                              <p>Model20192</p>
                           </div>
-                        <div class="card-body">
-                          <a href="#" class="card-link"><i class="fa-solid fa-dollar-sign fa-flip-both" style="color: #63E6BE;"></i> Buy Now</a>
-                          <a href="#" class="card-link"><i class="fa-regular fa-circle-question" style="color: #c02121;"></i> Question</a>
                         </div>
-                      </div>
-                      <div class="card" >
-                        <img src="./images/headphone.jpg" class="card-img-top" alt="...">
-                        <span class="badge-c">HOT</span>
-                        <span class="pre-order-badge">pre-order</span>
-                        <div class="card-body">
-                            <div>
-                                <p>LG</p>
-                            </div>
-                            <div>
-                                <p>Model 192</p>
-                            </div>
+                        <div class="det">
+                          <div class="title">Headphones</div>
+                          <div class="price">$99.00</div>
+                          <div class="actions">
+                              <div class="quantity">
+                                  <input type="number" value="1">
+                                  <button class="add-to-cart">ADD TO CART</button>
+                              </div>
+                             <div class="c-icons">
+                              <a href=""><i class="fa-regular fa-heart"></i></a>
+                              <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
+                             </div>
                           </div>
-                          <div class="det">
-                            <div class="title">LG Smart TV</div>
-                            <div class="price">$999.00</div>
-                            <div class="actions">
-                                <div class="quantity">
-                                    <input type="number" value="1">
-                                    <button class="add-to-cart">ADD TO CART</button>
-                                </div>
-                               <div class="c-icons">
-                                <a href=""><i class="fa-regular fa-heart"></i></a>
-                                <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
-                               </div>
-                            </div>
-                          </div>
-                        <div class="card-body">
-                          <a href="#" class="card-link"><i class="fa-solid fa-dollar-sign fa-flip-both" style="color: #63E6BE;"></i> Buy Now</a>
-                          <a href="#" class="card-link"><i class="fa-regular fa-circle-question" style="color: #c02121;"></i> Question</a>
                         </div>
+                      <div class="card-body">
+                        <a href="#" class="card-link"><i class="fa-solid fa-dollar-sign fa-flip-both" style="color: #63E6BE;"></i> Buy Now</a>
+                        <a href="#" class="card-link"><i class="fa-regular fa-circle-question" style="color: #c02121;"></i> Question</a>
                       </div>
-                </div>
+                    </div>
+                    <div class="card" >
+                      <img src="./images/heels.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <div>
+                              <p>Lecia Digital Camera</p>
+                          </div>
+                          <div>
+                              <p>Model20194</p>
+                          </div>
+                        </div>
+                        <div class="det">
+                          <div class="title">Lecia Digital Camera</div>
+                          <div class="price">$2,299.00</div>
+                          <div class="actions">
+                              <div class="quantity">
+                                  <input type="number" value="1">
+                                  <button class="add-to-cart">ADD TO CART</button>
+                              </div>
+                             <div class="c-icons">
+                              <a href=""><i class="fa-regular fa-heart"></i></a>
+                              <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
+                             </div>
+                          </div>
+                        </div>
+                      <div class="card-body">
+                        <a href="#" class="card-link"><i class="fa-solid fa-dollar-sign fa-flip-both" style="color: #63E6BE;"></i> Buy Now</a>
+                        <a href="#" class="card-link"><i class="fa-regular fa-circle-question" style="color: #c02121;"></i> Question</a>
+                      </div>
+                    </div>
+                    <div class="card" >
+                      <img src="./images/heel.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <div>
+                              <p>Ny fashion</p>
+                          </div>
+                          <div>
+                              <p>Model201</p>
+                          </div>
+                        </div>
+                        <div class="det">
+                          <div class="title">Women's Maria Pump</div>
+                          <div class="price">$59.00</div>
+                          <div class="actions">
+                              <div class="quantity">
+                                  <input type="number" value="1">
+                                  <button class="add-to-cart">ADD TO CART</button>
+                              </div>
+                             <div class="c-icons">
+                              <a href=""><i class="fa-regular fa-heart"></i></a>
+                              <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
+                             </div>
+                          </div>
+                        </div>
+                      <div class="card-body">
+                        <a href="#" class="card-link"><i class="fa-solid fa-dollar-sign fa-flip-both" style="color: #63E6BE;"></i> Buy Now</a>
+                        <a href="#" class="card-link"><i class="fa-regular fa-circle-question" style="color: #c02121;"></i> Question</a>
+                      </div>
+                    </div>
+                    <div class="card" >
+                      <img src="./images/headphone.jpg" class="card-img-top" alt="...">
+                      <span class="badge-c">HOT</span>
+                      <span class="pre-order-badge">pre-order</span>
+                      <div class="card-body">
+                          <div>
+                              <p>LG</p>
+                          </div>
+                          <div>
+                              <p>Model 192</p>
+                          </div>
+                        </div>
+                        <div class="det">
+                          <div class="title">LG Smart TV</div>
+                          <div class="price">$999.00</div>
+                          <div class="actions">
+                              <div class="quantity">
+                                  <input type="number" value="1">
+                                  <button class="add-to-cart">ADD TO CART</button>
+                              </div>
+                             <div class="c-icons">
+                              <a href=""><i class="fa-regular fa-heart"></i></a>
+                              <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
+                             </div>
+                          </div>
+                        </div>
+                      <div class="card-body">
+                        <a href="#" class="card-link"><i class="fa-solid fa-dollar-sign fa-flip-both" style="color: #63E6BE;"></i> Buy Now</a>
+                        <a href="#" class="card-link"><i class="fa-regular fa-circle-question" style="color: #c02121;"></i> Question</a>
+                      </div>
+                    </div>
               </div>
-              <div class="carousel-item">
-                <div class="p-card">
-                    <div class="card" >
-                        <img src="./images/headphone.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <div>
-                                <p>Ericssion</p>
-                            </div>
-                            <div>
-                                <p>Model20192</p>
-                            </div>
-                          </div>
-                          <div class="det">
-                            <div class="title">Headphones</div>
-                            <div class="price">$99.00</div>
-                            <div class="actions">
-                                <div class="quantity">
-                                    <input type="number" value="1">
-                                    <button class="add-to-cart">ADD TO CART</button>
-                                </div>
-                               <div class="c-icons">
-                                <a href=""><i class="fa-regular fa-heart"></i></a>
-                                <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
-                               </div>
-                            </div>
-                          </div>
-                        <div class="card-body">
-                          <a href="#" class="card-link"><i class="fa-solid fa-dollar-sign fa-flip-both" style="color: #63E6BE;"></i> Buy Now</a>
-                          <a href="#" class="card-link"><i class="fa-regular fa-circle-question" style="color: #c02121;"></i> Question</a>
-                        </div>
-                      </div>
-                      <div class="card" >
-                        <img src="./images/heels.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <div>
-                                <p>Lecia Digital Camera</p>
-                            </div>
-                            <div>
-                                <p>Model20194</p>
-                            </div>
-                          </div>
-                          <div class="det">
-                            <div class="title">Lecia Digital Camera</div>
-                            <div class="price">$2,299.00</div>
-                            <div class="actions">
-                                <div class="quantity">
-                                    <input type="number" value="1">
-                                    <button class="add-to-cart">ADD TO CART</button>
-                                </div>
-                               <div class="c-icons">
-                                <a href=""><i class="fa-regular fa-heart"></i></a>
-                                <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
-                               </div>
-                            </div>
-                          </div>
-                        <div class="card-body">
-                          <a href="#" class="card-link"><i class="fa-solid fa-dollar-sign fa-flip-both" style="color: #63E6BE;"></i> Buy Now</a>
-                          <a href="#" class="card-link"><i class="fa-regular fa-circle-question" style="color: #c02121;"></i> Question</a>
-                        </div>
-                      </div>
-                      <div class="card" >
-                        <img src="./images/heel.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <div>
-                                <p>Ny fashion</p>
-                            </div>
-                            <div>
-                                <p>Model201</p>
-                            </div>
-                          </div>
-                          <div class="det">
-                            <div class="title">Women's Maria Pump</div>
-                            <div class="price">$59.00</div>
-                            <div class="actions">
-                                <div class="quantity">
-                                    <input type="number" value="1">
-                                    <button class="add-to-cart">ADD TO CART</button>
-                                </div>
-                               <div class="c-icons">
-                                <a href=""><i class="fa-regular fa-heart"></i></a>
-                                <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
-                               </div>
-                            </div>
-                          </div>
-                        <div class="card-body">
-                          <a href="#" class="card-link"><i class="fa-solid fa-dollar-sign fa-flip-both" style="color: #63E6BE;"></i> Buy Now</a>
-                          <a href="#" class="card-link"><i class="fa-regular fa-circle-question" style="color: #c02121;"></i> Question</a>
-                        </div>
-                      </div>
-                      <div class="card" >
-                        <img src="./images/headphone.jpg" class="card-img-top" alt="...">
-                        <span class="badge-c">HOT</span>
-                        <span class="pre-order-badge">pre-order</span>
-                        <div class="card-body">
-                            <div>
-                                <p>LG</p>
-                            </div>
-                            <div>
-                                <p>Model 192</p>
-                            </div>
-                          </div>
-                          <div class="det">
-                            <div class="title">LG Smart TV</div>
-                            <div class="price">$999.00</div>
-                            <div class="actions">
-                                <div class="quantity">
-                                    <input type="number" value="1">
-                                    <button class="add-to-cart">ADD TO CART</button>
-                                </div>
-                               <div class="c-icons">
-                                <a href=""><i class="fa-regular fa-heart"></i></a>
-                                <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
-                               </div>
-                            </div>
-                          </div>
-                        <div class="card-body">
-                          <a href="#" class="card-link"><i class="fa-solid fa-dollar-sign fa-flip-both" style="color: #63E6BE;"></i> Buy Now</a>
-                          <a href="#" class="card-link"><i class="fa-regular fa-circle-question" style="color: #c02121;"></i> Question</a>
-                        </div>
-                      </div>
-                </div>              </div>
-              <div class="carousel-item">
-                <div class="p-card">
-                    <div class="card" >
-                        <img src="./images/watch.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <div>
-                                <p>Boat</p>
-                            </div>
-                            <div>
-                                <p>Model s8</p>
-                            </div>
-                          </div>
-                          <div class="det">
-                            <div class="title">Boat Smartwatch</div>
-                            <div class="price">$199.00</div>
-                            <div class="actions">
-                                <div class="quantity">
-                                    <input type="number" value="1">
-                                    <button class="add-to-cart">ADD TO CART</button>
-                                </div>
-                               <div class="c-icons">
-                                <a href=""><i class="fa-regular fa-heart"></i></a>
-                                <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
-                               </div>
-                            </div>
-                          </div>
-                        <div class="card-body">
-                          <a href="#" class="card-link"><i class="fa-solid fa-dollar-sign fa-flip-both" style="color: #63E6BE;"></i> Buy Now</a>
-                          <a href="#" class="card-link"><i class="fa-regular fa-circle-question" style="color: #c02121;"></i> Question</a>
-                        </div>
-                      </div>
-                      <div class="card" >
-                        <img src="./images/heels.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <div>
-                                <p>Lecia Digital Camera</p>
-                            </div>
-                            <div>
-                                <p>Model20194</p>
-                            </div>
-                          </div>
-                          <div class="det">
-                            <div class="title">Lecia Digital Camera</div>
-                            <div class="price">$2,299.00</div>
-                            <div class="actions">
-                                <div class="quantity">
-                                    <input type="number" value="1">
-                                    <button class="add-to-cart">ADD TO CART</button>
-                                </div>
-                               <div class="c-icons">
-                                <a href=""><i class="fa-regular fa-heart"></i></a>
-                                <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
-                               </div>
-                            </div>
-                          </div>
-                        <div class="card-body">
-                          <a href="#" class="card-link"><i class="fa-solid fa-dollar-sign fa-flip-both" style="color: #63E6BE;"></i> Buy Now</a>
-                          <a href="#" class="card-link"><i class="fa-regular fa-circle-question" style="color: #c02121;"></i> Question</a>
-                        </div>
-                      </div>
-                      <div class="card" >
-                        <img src="./images/heel.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <div>
-                                <p>Ny fashion</p>
-                            </div>
-                            <div>
-                                <p>Model201</p>
-                            </div>
-                          </div>
-                          <div class="det">
-                            <div class="title">Women's Maria Pump</div>
-                            <div class="price">$59.00</div>
-                            <div class="actions">
-                                <div class="quantity">
-                                    <input type="number" value="1">
-                                    <button class="add-to-cart">ADD TO CART</button>
-                                </div>
-                               <div class="c-icons">
-                                <a href=""><i class="fa-regular fa-heart"></i></a>
-                                <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
-                               </div>
-                            </div>
-                          </div>
-                        <div class="card-body">
-                          <a href="#" class="card-link"><i class="fa-solid fa-dollar-sign fa-flip-both" style="color: #63E6BE;"></i> Buy Now</a>
-                          <a href="#" class="card-link"><i class="fa-regular fa-circle-question" style="color: #c02121;"></i> Question</a>
-                        </div>
-                      </div>
-                      <div class="card" >
-                        <img src="./images/headphone.jpg" class="card-img-top" alt="...">
-                        <span class="badge-c">HOT</span>
-                        <span class="pre-order-badge">pre-order</span>
-                        <div class="card-body">
-                            <div>
-                                <p>LG</p>
-                            </div>
-                            <div>
-                                <p>Model 192</p>
-                            </div>
-                          </div>
-                          <div class="det">
-                            <div class="title">LG Smart TV</div>
-                            <div class="price">$999.00</div>
-                            <div class="actions">
-                                <div class="quantity">
-                                    <input type="number" value="1">
-                                    <button class="add-to-cart">ADD TO CART</button>
-                                </div>
-                               <div class="c-icons">
-                                <a href=""><i class="fa-regular fa-heart"></i></a>
-                                <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
-                               </div>
-                            </div>
-                          </div>
-                        <div class="card-body">
-                          <a href="#" class="card-link"><i class="fa-solid fa-dollar-sign fa-flip-both" style="color: #63E6BE;"></i> Buy Now</a>
-                          <a href="#" class="card-link"><i class="fa-regular fa-circle-question" style="color: #c02121;"></i> Question</a>
-                        </div>
-                      </div>
-                </div>              </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
+            <div class="carousel-item">
+              <div class="p-card">
+                  <div class="card" >
+                      <img src="./images/headphone.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <div>
+                              <p>Ericssion</p>
+                          </div>
+                          <div>
+                              <p>Model20192</p>
+                          </div>
+                        </div>
+                        <div class="det">
+                          <div class="title">Headphones</div>
+                          <div class="price">$99.00</div>
+                          <div class="actions">
+                              <div class="quantity">
+                                  <input type="number" value="1">
+                                  <button class="add-to-cart">ADD TO CART</button>
+                              </div>
+                             <div class="c-icons">
+                              <a href=""><i class="fa-regular fa-heart"></i></a>
+                              <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
+                             </div>
+                          </div>
+                        </div>
+                      <div class="card-body">
+                        <a href="#" class="card-link"><i class="fa-solid fa-dollar-sign fa-flip-both" style="color: #63E6BE;"></i> Buy Now</a>
+                        <a href="#" class="card-link"><i class="fa-regular fa-circle-question" style="color: #c02121;"></i> Question</a>
+                      </div>
+                    </div>
+                    <div class="card" >
+                      <img src="./images/heels.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <div>
+                              <p>Lecia Digital Camera</p>
+                          </div>
+                          <div>
+                              <p>Model20194</p>
+                          </div>
+                        </div>
+                        <div class="det">
+                          <div class="title">Lecia Digital Camera</div>
+                          <div class="price">$2,299.00</div>
+                          <div class="actions">
+                              <div class="quantity">
+                                  <input type="number" value="1">
+                                  <button class="add-to-cart">ADD TO CART</button>
+                              </div>
+                             <div class="c-icons">
+                              <a href=""><i class="fa-regular fa-heart"></i></a>
+                              <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
+                             </div>
+                          </div>
+                        </div>
+                      <div class="card-body">
+                        <a href="#" class="card-link"><i class="fa-solid fa-dollar-sign fa-flip-both" style="color: #63E6BE;"></i> Buy Now</a>
+                        <a href="#" class="card-link"><i class="fa-regular fa-circle-question" style="color: #c02121;"></i> Question</a>
+                      </div>
+                    </div>
+                    <div class="card" >
+                      <img src="./images/heel.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <div>
+                              <p>Ny fashion</p>
+                          </div>
+                          <div>
+                              <p>Model201</p>
+                          </div>
+                        </div>
+                        <div class="det">
+                          <div class="title">Women's Maria Pump</div>
+                          <div class="price">$59.00</div>
+                          <div class="actions">
+                              <div class="quantity">
+                                  <input type="number" value="1">
+                                  <button class="add-to-cart">ADD TO CART</button>
+                              </div>
+                             <div class="c-icons">
+                              <a href=""><i class="fa-regular fa-heart"></i></a>
+                              <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
+                             </div>
+                          </div>
+                        </div>
+                      <div class="card-body">
+                        <a href="#" class="card-link"><i class="fa-solid fa-dollar-sign fa-flip-both" style="color: #63E6BE;"></i> Buy Now</a>
+                        <a href="#" class="card-link"><i class="fa-regular fa-circle-question" style="color: #c02121;"></i> Question</a>
+                      </div>
+                    </div>
+                    <div class="card" >
+                      <img src="./images/headphone.jpg" class="card-img-top" alt="...">
+                      <span class="badge-c">HOT</span>
+                      <span class="pre-order-badge">pre-order</span>
+                      <div class="card-body">
+                          <div>
+                              <p>LG</p>
+                          </div>
+                          <div>
+                              <p>Model 192</p>
+                          </div>
+                        </div>
+                        <div class="det">
+                          <div class="title">LG Smart TV</div>
+                          <div class="price">$999.00</div>
+                          <div class="actions">
+                              <div class="quantity">
+                                  <input type="number" value="1">
+                                  <button class="add-to-cart">ADD TO CART</button>
+                              </div>
+                             <div class="c-icons">
+                              <a href=""><i class="fa-regular fa-heart"></i></a>
+                              <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
+                             </div>
+                          </div>
+                        </div>
+                      <div class="card-body">
+                        <a href="#" class="card-link"><i class="fa-solid fa-dollar-sign fa-flip-both" style="color: #63E6BE;"></i> Buy Now</a>
+                        <a href="#" class="card-link"><i class="fa-regular fa-circle-question" style="color: #c02121;"></i> Question</a>
+                      </div>
+                    </div>
+              </div>              </div>
+            <div class="carousel-item">
+              <div class="p-card">
+                  <div class="card" >
+                      <img src="./images/watch.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <div>
+                              <p>Boat</p>
+                          </div>
+                          <div>
+                              <p>Model s8</p>
+                          </div>
+                        </div>
+                        <div class="det">
+                          <div class="title">Boat Smartwatch</div>
+                          <div class="price">$199.00</div>
+                          <div class="actions">
+                              <div class="quantity">
+                                  <input type="number" value="1">
+                                  <button class="add-to-cart">ADD TO CART</button>
+                              </div>
+                             <div class="c-icons">
+                              <a href=""><i class="fa-regular fa-heart"></i></a>
+                              <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
+                             </div>
+                          </div>
+                        </div>
+                      <div class="card-body">
+                        <a href="#" class="card-link"><i class="fa-solid fa-dollar-sign fa-flip-both" style="color: #63E6BE;"></i> Buy Now</a>
+                        <a href="#" class="card-link"><i class="fa-regular fa-circle-question" style="color: #c02121;"></i> Question</a>
+                      </div>
+                    </div>
+                    <div class="card" >
+                      <img src="./images/heels.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <div>
+                              <p>Lecia Digital Camera</p>
+                          </div>
+                          <div>
+                              <p>Model20194</p>
+                          </div>
+                        </div>
+                        <div class="det">
+                          <div class="title">Lecia Digital Camera</div>
+                          <div class="price">$2,299.00</div>
+                          <div class="actions">
+                              <div class="quantity">
+                                  <input type="number" value="1">
+                                  <button class="add-to-cart">ADD TO CART</button>
+                              </div>
+                             <div class="c-icons">
+                              <a href=""><i class="fa-regular fa-heart"></i></a>
+                              <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
+                             </div>
+                          </div>
+                        </div>
+                      <div class="card-body">
+                        <a href="#" class="card-link"><i class="fa-solid fa-dollar-sign fa-flip-both" style="color: #63E6BE;"></i> Buy Now</a>
+                        <a href="#" class="card-link"><i class="fa-regular fa-circle-question" style="color: #c02121;"></i> Question</a>
+                      </div>
+                    </div>
+                    <div class="card" >
+                      <img src="./images/heel.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <div>
+                              <p>Ny fashion</p>
+                          </div>
+                          <div>
+                              <p>Model201</p>
+                          </div>
+                        </div>
+                        <div class="det">
+                          <div class="title">Women's Maria Pump</div>
+                          <div class="price">$59.00</div>
+                          <div class="actions">
+                              <div class="quantity">
+                                  <input type="number" value="1">
+                                  <button class="add-to-cart">ADD TO CART</button>
+                              </div>
+                             <div class="c-icons">
+                              <a href=""><i class="fa-regular fa-heart"></i></a>
+                              <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
+                             </div>
+                          </div>
+                        </div>
+                      <div class="card-body">
+                        <a href="#" class="card-link"><i class="fa-solid fa-dollar-sign fa-flip-both" style="color: #63E6BE;"></i> Buy Now</a>
+                        <a href="#" class="card-link"><i class="fa-regular fa-circle-question" style="color: #c02121;"></i> Question</a>
+                      </div>
+                    </div>
+                    <div class="card" >
+                      <img src="./images/headphone.jpg" class="card-img-top" alt="...">
+                      <span class="badge-c">HOT</span>
+                      <span class="pre-order-badge">pre-order</span>
+                      <div class="card-body">
+                          <div>
+                              <p>LG</p>
+                          </div>
+                          <div>
+                              <p>Model 192</p>
+                          </div>
+                        </div>
+                        <div class="det">
+                          <div class="title">LG Smart TV</div>
+                          <div class="price">$999.00</div>
+                          <div class="actions">
+                              <div class="quantity">
+                                  <input type="number" value="1">
+                                  <button class="add-to-cart">ADD TO CART</button>
+                              </div>
+                             <div class="c-icons">
+                              <a href=""><i class="fa-regular fa-heart"></i></a>
+                              <a href=""><i class="fa-solid fa-right-left" style="color: #74C0FC;"></i></a>
+                             </div>
+                          </div>
+                        </div>
+                      <div class="card-body">
+                        <a href="#" class="card-link"><i class="fa-solid fa-dollar-sign fa-flip-both" style="color: #63E6BE;"></i> Buy Now</a>
+                        <a href="#" class="card-link"><i class="fa-regular fa-circle-question" style="color: #c02121;"></i> Question</a>
+                      </div>
+                    </div>
+              </div>              </div>
           </div>
-       
-    </div>
-        <button class="p-btn">See All Products-></button>
-    </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+     
+  </div>
+      <button class="p-btn">SEE ALL PRODUCTS <i class="fa-solid fa-arrow-right"></i></button>
+  </div>
+  </div>
+    
 </div>
 <!----------------------Featured category------------------->
-<div class="featured-category">
+  <div class="featured-category">
     <div class="about">
         <div>
             <h1>Featured Category</h1>
@@ -841,7 +927,8 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, recusandae dolorem vel eum impedit maiores sunt reprehenderit tenetur delectus nesciunt deleniti! Dicta animi illum, nostrum harum hic autem quos quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="">Learn More</a></p>
     </div>
     </div>
-    <div class="catelogue">
+    <div class="wrapper">
+      <div class="catelogue">
         <div class="cat-left">
             <div>
               <h1>Fashion</h1>
@@ -1081,9 +1168,14 @@
             </div>  
 </div>
 </div>
+    </div>
+    
 </div>
+
+
 <!--------------------------brands----------------->
-<div class="brands">
+<div class="wrapper">
+  <div class="brands">
     <div class="about">
         <div>
             <h1>Shop by Brands</h1>
@@ -1155,188 +1247,242 @@
     </div>
 
 </div>
+</div>
+
 
 <!---------gallery---->
 <div class="gallery">
+  <div class="wrapper">
     <div class="about">
-        <div>
-            <h1>Improved Gallery Module</h1>
-            <hr style="background-color: #c02121;">
+      <div>
+          <h1>Improved Gallery Module</h1>
+          <hr style="background-color: #c02121;">
 
-        </div>
-    <div class="about-para">
-        <p>Lorem ipsum dolor sit amet, consectetur .impedit maiores sunt reprehenderit tenetur delectus nesciunt deleniti! Dicta animi illum, nostrum harum hic autem quos quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="">Learn More</a></p>
-    </div>
-    </div>
-    <div class="img-gallery">
-            <div class="imgs">
-                <div class="img-g">
-                    <img src="./images/0015-150x150.jpg.jfif" alt="" srcset="">
-                </div>
-                <div class="img-g">
-                    <img src="./images/backdrop031-150x150h.jpg.jfif" alt="" srcset="">
-                </div>
-                <div class="img-g">
-                    <img src="./images/18-150x150.jpg.jfif" alt="" srcset="">
-                </div>
-                <div class="img-g">
-                    <img src="./images/233H-150x150h.jpg (1).jfif" alt="" srcset="">
-                </div>
-                <div class="img-g">
-                    <img src="./images/4k-150x150h.png.png" alt="" srcset="">
-                </div>
-                <div class="img-g">
-                    <img src="./images/backdrop023-150x150h.jpg.jfif" alt="" srcset="">
-                </div>
-                <div class="img-g">
-                    <img src="./images/beauty-150x150w.jpg.jfif" alt="" srcset="">
-                </div>
-                <div class="img-g">
-                    <img src="./images/awesome-150x150.jpg.jfif" alt="" srcset="">
-                </div>
-                <div class="img-g">
-                    <img src="./images/backdrop036-150x150h.jpg.jfif" alt="" srcset="">
-                </div>
-                
+      </div>
+  <div class="about-para">
+      <p>Lorem ipsum dolor sit amet, consectetur .impedit maiores sunt reprehenderit tenetur delectus nesciunt deleniti! Dicta animi illum, nostrum harum hic autem quos quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="">Learn More</a></p>
+  </div>
+  </div>
+  <div class="img-gallery">
+          <div class="imgs">
+              <div class="img-g">
+                  <img src="./images/0015-150x150.jpg.jfif" alt="" srcset="">
+              </div>
+              <div class="img-g">
+                  <img src="./images/backdrop031-150x150h.jpg.jfif" alt="" srcset="">
+              </div>
+              <div class="img-g">
+                  <img src="./images/18-150x150.jpg.jfif" alt="" srcset="">
+              </div>
+              <div class="img-g">
+                  <img src="./images/233H-150x150h.jpg (1).jfif" alt="" srcset="">
+              </div>
+              <div class="img-g">
+                  <img src="./images/4k-150x150h.png.png" alt="" srcset="">
+              </div>
+              <div class="img-g">
+                  <img src="./images/backdrop023-150x150h.jpg.jfif" alt="" srcset="">
+              </div>
+              <div class="img-g">
+                  <img src="./images/beauty-150x150w.jpg.jfif" alt="" srcset="">
+              </div>
+              <div class="img-g">
+                  <img src="./images/awesome-150x150.jpg.jfif" alt="" srcset="">
+              </div>
+              <div class="img-g">
+                  <img src="./images/backdrop036-150x150h.jpg.jfif" alt="" srcset="">
+              </div>
+              
 
-            </div>
-    </div>
+          </div>
+  </div>
 
+  </div>
+   
 </div>
 
 <!---------------our blog---->
 <div class="Blog">
+  <div class="wrapper">
     <div class="about">
-        <div>
-            <h1>From our Blog</h1>
-            <hr style="background-color: #c02121;">
+      <div>
+          <h1>From our Blog</h1>
+          <hr style="background-color: #c02121;">
 
-        </div>
-    <div class="about-para">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, recusandae dolorem vel eum impedit maiores sunt reprehenderit tenetur delectus nesciunt deleniti! Dicta animi illum, nostrum harum hic autem quos quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="">Learn More</a></p>
-    </div>
-    </div>
-    <div class="Categories">
-        <div class="Categories-nav">
-            <nav>
-                <ul >
-                    <li><a href="">Latest Post</a></li>
-                    <li><a href="">Most Read</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-    <div class="res-blog">
-        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="auto"
-        centered-slides="true" space-between="30">
-        <swiper-slide><div class="card">
-            <img src="./images/heel.jpg" alt="">
-            <h5 class="card-header"><i class="fa-solid fa-user"></i> admin     <i class="fa-solid fa-comment"></i> 17 <i class="fa-solid fa-eye"></i> 7341</h5>
-            <div class="blog-c-b">
-                <h1>Journal Blog</h1>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolorum incidunt. Exercitationem pariatur odio deleniti temporibus nihil minus officia debitis, in ipsam vel a reprehenderit accusamus ea impedit. Ducimus, a..</p>
-              <a href="#" class="btn btn-primary">Read More</a>
-            </div>
-          </div></swiper-slide>
-        <swiper-slide><div class="card">
-            <img src="./images/watch.jpg" alt="">
-            <h5 class="card-header"><i class="fa-solid fa-user"></i> admin <i class="fa-solid fa-comment"></i> 17 <i class="fa-solid fa-eye"></i> 7341</h5>
-            <div class="blog-c-b">
-                <h1>Best Smartwatch</h1>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolorum incidunt. Exercitationem pariatur odio deleniti temporibus nihil minus officia debitis, in ipsam vel a reprehenderit accusamus ea impedit. Ducimus, a..</p>
-              <a href="#" class="btn btn-primary">Read More</a>
-            </div>
-          </div></swiper-slide>
-        <swiper-slide> <div class="card">
-            <img src="./images/ipad.jpg" alt="">
-            <h5 class="card-header"><i class="fa-solid fa-user"></i> admin <i class="fa-solid fa-comment"></i> 17 <i class="fa-solid fa-eye"></i> 7341</h5>
-            <div class="blog-c-b">
-                <h1>Best I-pad</h1>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolorum incidunt. Exercitationem pariatur odio deleniti temporibus nihil minus officia debitis, in ipsam vel a reprehenderit accusamus ea impedit. Ducimus, a..</p>
-              <a href="#" class="btn btn-primary">Read More</a>
-            </div>
+      </div>
+  <div class="about-para">
+    <p>Journal comes with its own simple yet powerful blog. With the new advanced typography styles your post page design will be unmatched.</p>
+  </div>
+  </div>
+  <div class="Categories">
+      <div class="Categories-nav">
+          <nav>
+              <ul >
+                  <li><a href="" style="background-color: #0D52D6;">Latest Post</a>
+                  </li>
+                  <li><a href="">Most Read</a></li>
+              </ul>
+          </nav>
+      </div>
+  </div>
+  <div class="res-blog">
+      <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="auto"
+      centered-slides="true" space-between="30">
+      <swiper-slide><div class="card">
+          <img src="./images/blog-1.jfif" alt="">
+          <h5 class="card-header"><i class="fa-solid fa-user"></i> admin     <i class="fa-solid fa-comment"></i> 17 <i class="fa-solid fa-eye"></i> 7341</h5>
+          <div class="blog-c-b">
+              <h1>Journal Blog</h1>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolorum incidunt. Exercitationem pariatur odio deleniti temporibus nihil minus officia debitis, in ipsam vel a reprehenderit accusamus ea impedit. Ducimus, a..</p>
+            <a href="#" class="btn btn-primary">Read More</a>
           </div>
+        </div></swiper-slide>
+      <swiper-slide><div class="card">
+          <img src="./images/blog-1.jfif" alt="">
+          <h5 class="card-header"><i class="fa-solid fa-user"></i> admin <i class="fa-solid fa-comment"></i> 17 <i class="fa-solid fa-eye"></i> 7341</h5>
+          <div class="blog-c-b">
+              <h1>Best Smartwatch</h1>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolorum incidunt. Exercitationem pariatur odio deleniti temporibus nihil minus officia debitis, in ipsam vel a reprehenderit accusamus ea impedit. Ducimus, a..</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div></swiper-slide>
+      <swiper-slide> <div class="card">
+          <img src="./images/ipad.jpg" alt="">
+          <h5 class="card-header"><i class="fa-solid fa-user"></i> admin <i class="fa-solid fa-comment"></i> 17 <i class="fa-solid fa-eye"></i> 7341</h5>
+          <div class="blog-c-b">
+              <h1>Best I-pad</h1>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolorum incidunt. Exercitationem pariatur odio deleniti temporibus nihil minus officia debitis, in ipsam vel a reprehenderit accusamus ea impedit. Ducimus, a..</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
 </swiper-slide>
-    
-      </swiper-container>
-    </div>
-    <div class="blog-cards">
-        <swiper-container  class="mySwiper" navigation="true" pagination="true" keyboard="true" mousewheel="true"
-        css-mode="true">
-    <swiper-slide>
-        <div class="first">
+  
+    </swiper-container>
+  </div>
+  <div class="blog-cards">
+      <swiper-container  class="mySwiper" navigation="true" pagination="true" keyboard="true" mousewheel="true"
+      css-mode="true">
+  <swiper-slide>
+      <div class="first">
+          <div class="card">
+              <img src="./images/blog-1.jfif" alt="">
+              <h5 class="card-header"><i class="fa-solid fa-user"></i> admin     <i class="fa-solid fa-comment"></i> 17 <i class="fa-solid fa-eye"></i> 7341</h5>
+              <div class="blog-c-b">
+                  <h1>Journal Blog</h1>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolorum incidunt. Exercitationem pariatur odio deleniti temporibus nihil minus officia debitis, in ipsam vel a reprehenderit accusamus ea impedit. Ducimus, a..</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
             <div class="card">
-                <img src="./images/heel.jpg" alt="">
-                <h5 class="card-header"><i class="fa-solid fa-user"></i> admin     <i class="fa-solid fa-comment"></i> 17 <i class="fa-solid fa-eye"></i> 7341</h5>
-                <div class="blog-c-b">
-                    <h1>Journal Blog</h1>
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolorum incidunt. Exercitationem pariatur odio deleniti temporibus nihil minus officia debitis, in ipsam vel a reprehenderit accusamus ea impedit. Ducimus, a..</p>
-                  <a href="#" class="btn btn-primary">Read More</a>
-                </div>
+              <img src="./images/watch.jpg" alt="">
+              <h5 class="card-header"><i class="fa-solid fa-user"></i> admin <i class="fa-solid fa-comment"></i> 17 <i class="fa-solid fa-eye"></i> 7341</h5>
+              <div class="blog-c-b">
+                  <h1>Best Smartwatch</h1>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolorum incidunt. Exercitationem pariatur odio deleniti temporibus nihil minus officia debitis, in ipsam vel a reprehenderit accusamus ea impedit. Ducimus, a..</p>
+                <a href="#" class="btn btn-primary">Read More</a>
               </div>
-              <div class="card">
-                <img src="./images/watch.jpg" alt="">
-                <h5 class="card-header"><i class="fa-solid fa-user"></i> admin <i class="fa-solid fa-comment"></i> 17 <i class="fa-solid fa-eye"></i> 7341</h5>
-                <div class="blog-c-b">
-                    <h1>Best Smartwatch</h1>
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolorum incidunt. Exercitationem pariatur odio deleniti temporibus nihil minus officia debitis, in ipsam vel a reprehenderit accusamus ea impedit. Ducimus, a..</p>
-                  <a href="#" class="btn btn-primary">Read More</a>
-                </div>
+            </div>
+            <div class="card">
+              <img src="./images/ipad.jpg" alt="">
+              <h5 class="card-header"><i class="fa-solid fa-user"></i> admin <i class="fa-solid fa-comment"></i> 17 <i class="fa-solid fa-eye"></i> 7341</h5>
+              <div class="blog-c-b">
+                  <h1>Best I-pad</h1>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolorum incidunt. Exercitationem pariatur odio deleniti temporibus nihil minus officia debitis, in ipsam vel a reprehenderit accusamus ea impedit. Ducimus, a..</p>
+                <a href="#" class="btn btn-primary">Read More</a>
               </div>
-              <div class="card">
-                <img src="./images/ipad.jpg" alt="">
-                <h5 class="card-header"><i class="fa-solid fa-user"></i> admin <i class="fa-solid fa-comment"></i> 17 <i class="fa-solid fa-eye"></i> 7341</h5>
-                <div class="blog-c-b">
-                    <h1>Best I-pad</h1>
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolorum incidunt. Exercitationem pariatur odio deleniti temporibus nihil minus officia debitis, in ipsam vel a reprehenderit accusamus ea impedit. Ducimus, a..</p>
-                  <a href="#" class="btn btn-primary">Read More</a>
-                </div>
-              </div>
+            </div>
 
-        </div>
-       
+      </div>
+     
 </swiper-slide>
-    <swiper-slide>
-        <div class="card">
-            <img src="./images/watch.jpg" alt="">
-            <h5 class="card-header"><i class="fa-solid fa-user"></i> admin <i class="fa-solid fa-comment"></i> 17 <i class="fa-solid fa-eye"></i> 7341</h5>
-            <div class="blog-c-b">
-                <h1>Best Smartwatch</h1>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolorum incidunt. Exercitationem pariatur odio deleniti temporibus nihil minus officia debitis, in ipsam vel a reprehenderit accusamus ea impedit. Ducimus, a..</p>
-              <a href="#" class="btn btn-primary">Read More</a>
-            </div>
+  <swiper-slide>
+      <div class="card">
+          <img src="./images/watch.jpg" alt="">
+          <h5 class="card-header"><i class="fa-solid fa-user"></i> admin <i class="fa-solid fa-comment"></i> 17 <i class="fa-solid fa-eye"></i> 7341</h5>
+          <div class="blog-c-b">
+              <h1>Best Smartwatch</h1>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolorum incidunt. Exercitationem pariatur odio deleniti temporibus nihil minus officia debitis, in ipsam vel a reprehenderit accusamus ea impedit. Ducimus, a..</p>
+            <a href="#" class="btn btn-primary">Read More</a>
           </div>
-    </swiper-slide>
-    <swiper-slide>
-        <div class="card">
-            <img src="./images/ipad.jpg" alt="">
-            <h5 class="card-header"><i class="fa-solid fa-user"></i> admin <i class="fa-solid fa-comment"></i> 17 <i class="fa-solid fa-eye"></i> 7341</h5>
-            <div class="blog-c-b">
-                <h1>Best I-pad</h1>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolorum incidunt. Exercitationem pariatur odio deleniti temporibus nihil minus officia debitis, in ipsam vel a reprehenderit accusamus ea impedit. Ducimus, a..</p>
-              <a href="#" class="btn btn-primary">Read More</a>
-            </div>
+        </div>
+  </swiper-slide>
+  <swiper-slide>
+      <div class="card">
+          <img src="./images/ipad.jpg" alt="">
+          <h5 class="card-header"><i class="fa-solid fa-user"></i> admin <i class="fa-solid fa-comment"></i> 17 <i class="fa-solid fa-eye"></i> 7341</h5>
+          <div class="blog-c-b">
+              <h1>Best I-pad</h1>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolorum incidunt. Exercitationem pariatur odio deleniti temporibus nihil minus officia debitis, in ipsam vel a reprehenderit accusamus ea impedit. Ducimus, a..</p>
+            <a href="#" class="btn btn-primary">Read More</a>
           </div>
-    </swiper-slide>
-    <swiper-slide>
-        <div class="card">
-            <img src="./images/heels.jpg" alt="">
-            <h5 class="card-header"><i class="fa-solid fa-user"></i> admin <i class="fa-solid fa-comment"></i> 17 <i class="fa-solid fa-eye"></i> 7341</h5>
-            <div class="blog-c-b">
-                <h1>Best Camera</h1>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolorum incidunt. Exercitationem pariatur odio deleniti temporibus nihil minus officia debitis, in ipsam vel a reprehenderit accusamus ea impedit. Ducimus, a..</p>
-              <a href="#" class="btn btn-primary">Read More</a>
-            </div>
+        </div>
+  </swiper-slide>
+  <swiper-slide>
+      <div class="card">
+          <img src="./images/heels.jpg" alt="">
+          <h5 class="card-header"><i class="fa-solid fa-user"></i> admin <i class="fa-solid fa-comment"></i> 17 <i class="fa-solid fa-eye"></i> 7341</h5>
+          <div class="blog-c-b">
+              <h1>Best Camera</h1>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolorum incidunt. Exercitationem pariatur odio deleniti temporibus nihil minus officia debitis, in ipsam vel a reprehenderit accusamus ea impedit. Ducimus, a..</p>
+            <a href="#" class="btn btn-primary">Read More</a>
           </div>
-    </swiper-slide>
-  </swiper-container>
+        </div>
+  </swiper-slide>
+</swiper-container>
 
+  </div>
+  <div class="shop-class">
+    <div>
+      <!-- <div class="card">
+        <img src="./images/blog-1.jfif" alt="">
+        <h5 class="card-header"><i class="fa-solid fa-user"></i> admin     <i class="fa-solid fa-comment"></i> 17 <i class="fa-solid fa-eye"></i> 7341</h5>
+        <div class="blog-c-b">
+            <h1>Journal Blog</h1>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolorum incidunt. Exercitationem pariatur odio deleniti temporibus nihil minus officia debitis, in ipsam vel a reprehenderit accusamus ea impedit. Ducimus, a..</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div> -->
+      <div class="card">
+        <img src="./images/watch.jpg" alt="">
+        <h5 class="card-header"><i class="fa-solid fa-user"></i> admin <i class="fa-solid fa-comment"></i> 17 <i class="fa-solid fa-eye"></i> 7341</h5>
+        <div class="blog-c-b">
+            <h1>Best Smartwatch</h1>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolorum incidunt. Exercitationem pariatur odio deleniti temporibus nihil minus officia debitis, in ipsam vel a reprehenderit accusamus ea impedit. Ducimus, a..</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
     </div>
+    <div>
+      <div class="card">
+        <img src="./images/watch.jpg" alt="">
+        <h5 class="card-header"><i class="fa-solid fa-user"></i> admin <i class="fa-solid fa-comment"></i> 17 <i class="fa-solid fa-eye"></i> 7341</h5>
+        <div class="blog-c-b">
+            <h1>Best Smartwatch</h1>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolorum incidunt. Exercitationem pariatur odio deleniti temporibus nihil minus officia debitis, in ipsam vel a reprehenderit accusamus ea impedit. Ducimus, a..</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <img src="./images/watch.jpg" alt="">
+        <h5 class="card-header"><i class="fa-solid fa-user"></i> admin <i class="fa-solid fa-comment"></i> 17 <i class="fa-solid fa-eye"></i> 7341</h5>
+        <div class="blog-c-b">
+            <h1>Best Smartwatch</h1>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolorum incidunt. Exercitationem pariatur odio deleniti temporibus nihil minus officia debitis, in ipsam vel a reprehenderit accusamus ea impedit. Ducimus, a..</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+ 
     
 </div>
 
 <!-------------------testimonial----------->
-<div class="testimonial">
+<div class="wrapper">
+  <div class="testimonial">
     <div class="about">
         <div>
             <h1>What people say about us?</h1>
@@ -1345,7 +1491,7 @@
         </div>
     
     </div>
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div id="c" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active " style="justify-content: center;">
             <div class="test">
@@ -1411,77 +1557,86 @@
    
 
 </div>
+</div>
+
 
 <!--------------------Most Viewed----------------->
 <div class="most-viewed">
+  <div class="wrapper">
     <div class="head-most">
-        <h1>Most Viewed</h1>
-        <hr style="background-color: #c02121;">
-    </div>
-    <div class="most-items">
-        <div class="most-card">
-            <div class="c-l">
-                <img src="./images/233H-150x150h.jpg (1).jfif" alt="">
-            </div>
-            <div class="c-r">
-                <h1>Oversized Headphone </h1>
-                <p>$397.00</p>
-                <div class="most-icons">
-                    <i class="fa-solid fa-cart-shopping"></i> 
-                       <i class="fa-regular fa-heart"></i>
-                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
-                </div>
-            </div>
-        </div>
-        <div class="most-card">
-            <div class="c-l">
-                <img src="./images/headphone.jpg" alt="">
-            </div>
-            <div class="c-r">
-                <h1>Oversized Headphone </h1>
-                <p>$397.00</p>
-                <div class="most-icons">
-                    <i class="fa-solid fa-cart-shopping"></i> 
-                    <i class="fa-regular fa-heart"></i>
-                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
-                </div>
-            </div>
-        </div>
-        <div class="most-card">
-            <div class="c-l">
-                <img src="./images/headphone.jpg" alt="">
-            </div>
-            <div class="c-r">
-                <h1>Oversized Headphone </h1>
-                <p>$397.00</p>
-                <div class="most-icons">
-                    <i class="fa-solid fa-cart-shopping"></i> 
-                    <i class="fa-regular fa-heart"></i>
-                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
-                </div>
-            </div>
-        </div>
-    </div>
+      <h1>Most Viewed</h1>
+      <hr style="background-color: #c02121;">
+  </div>
+  <div class="most-items">
+      <div class="most-card">
+          <div class="c-l">
+              <img src="./images/233H-150x150h.jpg (1).jfif" alt="">
+          </div>
+          <div class="c-r">
+              <h1>Oversized Headphone </h1>
+              <p>$397.00</p>
+              <div class="most-icons">
+                  <i class="fa-solid fa-cart-shopping"></i> 
+                     <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-arrow-right-arrow-left"></i>
+              </div>
+          </div>
+      </div>
+      <div class="most-card">
+          <div class="c-l">
+              <img src="./images/headphone.jpg" alt="">
+          </div>
+          <div class="c-r">
+              <h1>Oversized Headphone </h1>
+              <p>$397.00</p>
+              <div class="most-icons">
+                  <i class="fa-solid fa-cart-shopping"></i> 
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-arrow-right-arrow-left"></i>
+              </div>
+          </div>
+      </div>
+      <div class="most-card">
+          <div class="c-l">
+              <img src="./images/headphone.jpg" alt="">
+          </div>
+          <div class="c-r">
+              <h1>Oversized Headphone </h1>
+              <p>$397.00</p>
+              <div class="most-icons">
+                  <i class="fa-solid fa-cart-shopping"></i> 
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-arrow-right-arrow-left"></i>
+              </div>
+          </div>
+      </div>
+  </div>
+  </div>
+ 
     
 </div>
 <!----------socials-------------------->
 <div class="socials">
+  <div class="wrapper">
     <div class="social-icons">
-        <ul>
-            <li><a href=""><i class="fa-brands fa-facebook" style="color: #0d66ab;"></i></a></li>
-            <li><a href=""><i class="fa-brands fa-square-x-twitter" style="color: #0d66ab;"></i></a></li>
-            <li><a href=""><i class="fa-brands fa-instagram" style="color: #0d66ab;"></i></a></li>
-            <li><a href=""><i class="fa-brands fa-linkedin" style="color: #0d66ab;"></i></a></li>
-            <li><a href=""><i class="fa-brands fa-youtube" style="color: #0d66ab;"></i></a></li>
-            <li><a href=""><i class="fa-brands fa-skype" style="color: #0d66ab;"></i></a></li>
-            <li><a href=""><i class="fa-brands fa-google-plus" style="color: #0d66ab;"></i></a></li>
-        </ul>
-     
-    </div>
+      <ul>
+          <li><a href=""><i class="fa-brands fa-facebook" style="color: #0d66ab;"></i></a></li>
+          <li><a href=""><i class="fa-brands fa-square-x-twitter" style="color: #0d66ab;"></i></a></li>
+          <li><a href=""><i class="fa-brands fa-instagram" style="color: #0d66ab;"></i></a></li>
+          <li><a href=""><i class="fa-brands fa-linkedin" style="color: #0d66ab;"></i></a></li>
+          <li><a href=""><i class="fa-brands fa-youtube" style="color: #0d66ab;"></i></a></li>
+          <li><a href=""><i class="fa-brands fa-skype" style="color: #0d66ab;"></i></a></li>
+          <li><a href=""><i class="fa-brands fa-google-plus" style="color: #0d66ab;"></i></a></li>
+      </ul>
+   
+  </div>
+  </div>
+    
 </div>
 
 <!--------------------footer--------------->
-<div class="Footer">
+<div class="wrapper">
+  <div class="Footer">
     <div class="ab">
         <h1>About Us</h1>
         <hr style="background-color: #c02121;">
@@ -1524,8 +1679,11 @@
     </div>
 
 </div>
+</div>
 <div class="foot-last">
-    <div>
+  <div class="wrapper">
+    <div class="fooot">
+      <div>
         <p>Copyright © 2014, Your Store, All Rights Reserved
         </p>
     </div>
@@ -1537,6 +1695,56 @@
             <li><a href=""><i class="fa-brands fa-cc-visa"></i></a></li>
         </ul>
     </div>
+    </div>
+  
+  </div>
+   
 </div>
+
+
+
+<!-----------------------script------------------>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Slick Carousel JS -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+<script type="text/javascript">
+ $('.shop-class').slick({
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 5,
+  slidesToScroll: 5,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+</script>
 </body>
 </html>

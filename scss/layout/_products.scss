@@ -69,6 +69,7 @@
 }
 .card{
     width: 30rem;
+    // border-radius: 1rem;
 }
 
 .c-icons i{
@@ -93,7 +94,8 @@
 .p-btn{
     background-color:$primary-col;
     padding: 8px 12px;
-    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 100;
     border: 1px solid #ccc;
     cursor: pointer;
     height: 40px; /* Set a uniform height */
@@ -110,6 +112,8 @@
     flex-direction: column;
     justify-content: center;
     background-color: $bg-col;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 .card .badge-c{
     position: absolute;

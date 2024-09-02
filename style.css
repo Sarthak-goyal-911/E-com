@@ -1,4 +1,8 @@
 @media(max-width:786px){
+
+    .wrapper{
+width: 100%;    }
+
     .header{
         display:none;
     }
@@ -13,6 +17,7 @@
     .main-banner{
         flex-direction: column;
         gap: 1.2rem;
+        padding: 1.5rem;
         
     }
     .main-banner .banner-r{
@@ -76,6 +81,9 @@ swiper-container {
   }
 /* .Categories{
 } */
+ .img-c{
+    object-fit: cover;
+ }
  .res-car{
     display: flex;
     justify-content: center;

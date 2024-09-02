@@ -5,10 +5,13 @@
   flex-direction: column;
   justify-content: center;
   height: 250px;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
 }
   
   .brands-container .slide-track {
     width: 100%;
+    padding-top: 2rem;
     display: flex;
     gap: 3em;
     overflow: hidden;
