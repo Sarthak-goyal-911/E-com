@@ -21,6 +21,12 @@
     text-align: center;
     padding: 1rem;
 }
+.card-header{
+  gap: 0.5rem;
+  justify-content: center;
+  display: flex;
+}
+
 .blog-cards{
     justify-content: center;
     display: none;

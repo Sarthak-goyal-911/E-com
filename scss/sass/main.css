@@ -26,6 +26,10 @@ html {
   gap: 1rem;
 }
 
+.top-res {
+  display: none;
+}
+
 .top-header ul {
   list-style-type: none;
 }
@@ -190,6 +194,9 @@ html {
 }
 .main-banner .banner-1 {
   border-radius: 0.4rem;
+}
+.main-banner .res-bann {
+  display: none;
 }
 .main-banner .banner-2 {
   overflow: hidden; /* Ensures the image does not overflow the div */
@@ -502,7 +509,7 @@ html {
 }
 
 .card {
-  width: 30rem;
+  width: 100%;
 }
 
 .c-icons i {
@@ -720,6 +727,12 @@ html {
   padding: 1rem;
 }
 
+.card-header {
+  gap: 0.5rem;
+  justify-content: center;
+  display: flex;
+}
+
 .blog-cards {
   justify-content: center;
   display: none;
@@ -784,7 +797,7 @@ swiper-slide img {
 
 .testimonial {
   padding: 2rem;
-  height: 400px;
+  height: 450px;
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
