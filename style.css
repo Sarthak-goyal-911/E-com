@@ -45,7 +45,22 @@ width: 100%;    }
     .main-banner .banner-3{
         height: 100%;
     }
-
+    .main-banner .carousel-caption{
+        top: -55px;
+    }
+    .carousel-caption p{
+        font-size: 1.2rem !important;
+        font-weight: 700 !important;
+    }
+    .carousel-caption button{
+        font-size: 1rem !important;
+        padding: 3px !important;
+    }
+/* .carousel-caption{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1rem;
+} */
 .hero-sec{
     gap: 2rem;
     justify-content: center;
@@ -90,6 +105,18 @@ swiper-container {
   swiper-slide:nth-child(3n) {
     width: 20%;
   }
+  .res-span{
+    display: flex;
+    color: #0D52D6;
+    font-size: 3rem;
+    position: relative;
+    right: -12px;
+    top: 23px;
+}
+.o-span{
+    display: none;
+}
+
   
   .products{
     display: none;

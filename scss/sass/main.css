@@ -395,6 +395,10 @@ html {
   border-radius: 1rem;
 }
 
+.res-span {
+  display: none;
+}
+
 .shop-class {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -431,6 +435,10 @@ html {
   border: 0px solid white;
   color: black;
   font-size: 1.4rem;
+}
+
+.products {
+  padding-top: 2rem;
 }
 
 .card-body {
@@ -783,6 +791,10 @@ swiper-slide img {
 
 .res-blog {
   display: none;
+}
+
+.blog-blog {
+  padding-top: 3rem;
 }
 
 /* the slides */
