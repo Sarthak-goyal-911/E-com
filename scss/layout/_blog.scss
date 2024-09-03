@@ -4,7 +4,12 @@
   display: flex;
   flex-direction: column;
   background-color: #F8F8F8;
-  height: 700px;
+  height: 850px;
+  padding-top: 3rem;
+}
+.blog-class{
+  display: flex;
+  gap: 1rem;
 }
 .blog-cards{
    .blog-cards .card h1{
@@ -30,6 +35,9 @@
 // .card .image-gallery{
 //   object-fit: cover;
 // }
+.card-text{
+  font-size: 1.6rem;
+}
 .first{
     display: flex;
     gap: 1.5rem;
@@ -65,3 +73,17 @@ swiper-container {
   display: none;
 }
 
+// .blog-blog{
+//  }
+  /* the slides */
+ 
+
+.slick-dots li.slick-active button:before {
+
+  color:rgb(243, 50, 50) !important;
+}
+.slick-list .slick-track .slick-slide {
+
+  margin-left: 10px;
+  margin-right: 10px;
+}

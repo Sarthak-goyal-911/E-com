@@ -579,7 +579,7 @@ html {
   font-size: 10px;
 }
 
-.res-product {
+.about .res-product {
   display: none;
 }
 
@@ -701,7 +701,13 @@ html {
   display: flex;
   flex-direction: column;
   background-color: #F8F8F8;
-  height: 700px;
+  height: 850px;
+  padding-top: 3rem;
+}
+
+.blog-class {
+  display: flex;
+  gap: 1rem;
 }
 
 .blog-cards .blog-cards .card h1 {
@@ -722,6 +728,10 @@ html {
 .card .c-img {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.card-text {
+  font-size: 1.6rem;
 }
 
 .first {
@@ -760,6 +770,16 @@ swiper-slide img {
 
 .res-blog {
   display: none;
+}
+
+/* the slides */
+.slick-dots li.slick-active button:before {
+  color: rgb(243, 50, 50) !important;
+}
+
+.slick-list .slick-track .slick-slide {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .testimonial {
@@ -854,7 +874,7 @@ swiper-slide img {
 
 .socials {
   padding: 1rem;
-  background-color: #d3d6da;
+  background-color: #f8f8f8;
 }
 
 .social-icons ul {
