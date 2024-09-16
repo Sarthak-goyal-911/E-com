@@ -19,6 +19,7 @@ html {
   align-items: center;
   padding: 0.5rem;
   font-size: 1.3rem;
+  opacity: 0.8;
   margin-bottom: 0px;
 }
 .top-header .r-r {
@@ -40,6 +41,7 @@ html {
   align-items: center;
   font-weight: 400;
   font-size: xx-large;
+  opacity: 0.8;
   font-size: 1.6rem;
   background-color: #F7F7F7;
   padding-top: 2rem;
@@ -322,6 +324,12 @@ html {
 .hero-sec .hero-1 p {
   font-size: 1.4rem;
   color: rgb(139, 145, 152);
+}
+
+.ic {
+  border: 3px solid #0D52D6;
+  padding: 15px;
+  border-radius: 50%;
 }
 
 .wrp {
